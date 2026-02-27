@@ -5,5 +5,6 @@ def compute_fft(image_path):
     img = cv2.imread(image_path, 0)
     f = np.fft.fft2(img)
     magnitude = np.log(np.abs(f) + 1)
-    score = np.mean(magnitude) / 10
+    score = np.mean(magnitude) / 25
+    score = min(score, 1.0)
     return min(score, 1.0)

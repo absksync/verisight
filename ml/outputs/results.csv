@@ -1,0 +1,31 @@
+filename,category,score,decision,timeline,expiry_text,ela,fft,vit,expiry_score,ocr_confidence,fusion_confidence,tags,highlight_path
+original_01.jpeg,original,24,Approve,No expiry found,,0.00151228894335512,0.300023376325281,0.21933084726333618,0.3,0.0,0.21,OCR Confidence Drop,
+original_02.jpeg,original,37,Manual Review,Expired before delivery,11/10,0.002260189724037763,0.3579101874682474,0.12052714824676514,1.0,0.7168513671499293,0.37,,C:/Users/Apoorva/Desktop/VERISIGHT/ml/outputs/highlighted\51023b6c-eb7c-4e4f-b9dd-1db64f265610.jpg
+original_03.jpeg,original,37,Manual Review,No expiry found,03-26,0.0009613589324618737,0.31006374058763564,0.6414734423160553,0.3,0.6491922515622713,0.31,Synthetic Pattern,C:/Users/Apoorva/Desktop/VERISIGHT/ml/outputs/highlighted\c92ee2b4-2257-4323-9aa4-62e833cc6bd0.jpg
+original_04.jpeg,original,18,Approve,No expiry found,,0.002484280676969862,0.3166133338581991,0.005024075508117676,0.3,0.0,0.16,OCR Confidence Drop,
+original_05.jpeg,original,37,Manual Review,No expiry found,,0.001103733660130719,0.31715763255428997,0.6164883673191071,0.3,0.0,0.31,Synthetic Pattern;OCR Confidence Drop,
+original_06.jpeg,original,47,Reject,No expiry found,,0.0021825667211328977,0.35327439681226386,0.904817022383213,0.3,0.0,0.39,Synthetic Pattern;OCR Confidence Drop,
+original_07.jpeg,original,41,Manual Review,No expiry found,,0.0007533006535947712,0.3132193382750674,0.7756720781326294,0.3,0.0,0.35,Synthetic Pattern;OCR Confidence Drop,
+original_08.jpeg,original,43,Manual Review,Expired before delivery,12/2025,0.0009273617919389978,0.30203007513167945,0.3933849334716797,1.0,0.8655671997695888,0.42,,C:/Users/Apoorva/Desktop/VERISIGHT/ml/outputs/highlighted\ec1efad8-93dc-4cd9-b6d1-a2eab16e622b.jpg
+original_09.jpeg,original,19,Approve,No expiry found,,0.0013576286764705884,0.3295368081736349,0.019943296909332275,0.3,0.0,0.16,OCR Confidence Drop,
+original_10.jpeg,original,47,Reject,No expiry found,,0.0017623311546840958,0.33726084744618345,0.9240997731685638,0.3,0.0,0.39,Synthetic Pattern;OCR Confidence Drop,
+edited_01.jpeg,edited,25,Approve,No expiry found,03-01,0.000895389188544338,0.3037425556827174,0.24387824535369873,0.3,0.9710166871760247,0.21,,C:/Users/Apoorva/Desktop/VERISIGHT/ml/outputs/highlighted\5e4c2bf6-3ec8-423c-bafe-8d90e1787071.jpg
+edited_02.jpeg,edited,48,Reject,No expiry found,,0.0020451837357328357,0.33989660433348995,0.9603283330798149,0.3,0.0,0.4,Synthetic Pattern;OCR Confidence Drop,
+edited_03.jpeg,edited,17,Approve,No expiry found,,0.0017896083443277586,0.2893251385434482,0.004006385803222656,0.3,0.0,0.15,OCR Confidence Drop,
+edited_04.jpeg,edited,30,Manual Review,No expiry found,,0.00105795844636591,0.3099739665306577,0.3942915201187134,0.3,0.0,0.25,OCR Confidence Drop,
+edited_05.jpeg,edited,33,Manual Review,Expired before delivery,01/10,0.001065953898706259,0.3313661856781422,0.014115393161773682,1.0,0.8724486087261948,0.34,,C:/Users/Apoorva/Desktop/VERISIGHT/ml/outputs/highlighted\3ba76201-f5dc-4bae-ad54-ffd4675b5d57.jpg
+edited_06.jpeg,edited,24,Approve,No expiry found,,0.0016380688071030694,0.2973805129040082,0.21962660551071167,0.3,0.0,0.2,OCR Confidence Drop,
+edited_07.jpeg,edited,41,Manual Review,No expiry found,,0.0019217955749819817,0.3270915858515938,0.7465617954730988,0.3,0.0,0.34,Synthetic Pattern;OCR Confidence Drop,
+edited_08.jpeg,edited,51,Reject,Expired before delivery,12/2025,0.0008348633761745329,0.2951001611889846,0.6501392424106598,1.0,0.9897872675452392,0.49,Synthetic Pattern,C:/Users/Apoorva/Desktop/VERISIGHT/ml/outputs/highlighted\33e9077c-d849-4de6-80b6-aba1fc54bac9.jpg
+edited_09.jpeg,edited,41,Manual Review,No expiry found,,0.000747262688061148,0.30709563495146786,0.7705100625753403,0.3,0.0,0.34,Synthetic Pattern;OCR Confidence Drop,
+edited_10.jpeg,edited,22,Approve,No expiry found,,0.0013294607543128856,0.3256501285189015,0.11790645122528076,0.3,0.0,0.19,OCR Confidence Drop,
+ai_01.jpeg,ai_generated,26,Approve,No expiry found,04-12,5.357501404516608e-06,0.31163002264422746,0.27289140224456787,0.3,0.6500458550979443,0.22,,C:/Users/Apoorva/Desktop/VERISIGHT/ml/outputs/highlighted\a04e7670-535e-4c81-997b-0bec6dc7f8e1.jpg
+ai_02.jpeg,ai_generated,17,Approve,No expiry found,,0.0023717545364985537,0.28847636054898107,0.004461109638214111,0.3,0.0,0.15,OCR Confidence Drop,
+ai_03.jpeg,ai_generated,44,Manual Review,Expired before delivery,2025,1.1530698084318471e-05,0.30805386648041866,0.41349244117736816,1.0,0.9867834448814392,0.43,,C:/Users/Apoorva/Desktop/VERISIGHT/ml/outputs/highlighted\a155dc3c-b3d2-4dfa-9abb-843a48730c69.jpg
+ai_04.jpeg,ai_generated,44,Manual Review,No expiry found,,0.001634378318608292,0.30953062839799217,0.8695390820503235,0.3,0.0,0.37,Synthetic Pattern;OCR Confidence Drop,
+ai_05.jpeg,ai_generated,36,Manual Review,Expired before delivery,01/10,2.779810118289887e-05,0.3143748775924095,0.14616191387176514,1.0,0.7546272387861354,0.37,,C:/Users/Apoorva/Desktop/VERISIGHT/ml/outputs/highlighted\606a68ee-6dd3-430b-9ae4-926c173cd700.jpg
+ai_06.jpeg,ai_generated,37,Manual Review,No expiry found,,0.0001097521908068783,0.30449680618474756,0.6470262408256531,0.3,0.0,0.31,Synthetic Pattern;OCR Confidence Drop,
+ai_07.jpeg,ai_generated,44,Manual Review,No expiry found,,0.0001480937427054155,0.32106316588042566,0.8624588549137115,0.3,0.0,0.37,Synthetic Pattern;OCR Confidence Drop,
+ai_08.jpeg,ai_generated,46,Reject,No expiry found,,0.0021675665257337596,0.3163568562519159,0.9202156364917755,0.3,0.0,0.38,Synthetic Pattern;OCR Confidence Drop,
+ai_09.jpeg,ai_generated,48,Reject,Expired before delivery,12/2025,1.6468740273887334e-05,0.3146766010188589,0.5140744149684906,1.0,0.5544636586890752,0.46,OCR Confidence Drop,C:/Users/Apoorva/Desktop/VERISIGHT/ml/outputs/highlighted\a07ab1f5-3abe-49e4-a621-ed9ce391dd91.jpg
+ai_10.jpeg,ai_generated,19,Approve,No expiry found,,0.001839394721785846,0.30907267109258035,0.05337470769882202,0.3,0.0,0.17,OCR Confidence Drop,
