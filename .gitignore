@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Temporary uploads
+uploads/
+
+# Generated output images
+backend/outputs/
+
+# Dataset images (large files)
+data/
+*.jpg
+*.png
