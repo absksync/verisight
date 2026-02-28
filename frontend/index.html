@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VeriSight — AI Fraud Detection Platform</title>
+  <meta name="description"
+    content="VeriSight enterprise AI-powered product authenticity and fraud detection platform" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ─── Background ─── -->
+  <div class="bg-blob blob-1"></div>
+  <div class="bg-blob blob-2"></div>
+
+  <!-- ─── Sidebar Nav ─── -->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-brand">
+      <svg viewBox="0 0 32 32" fill="none" class="brand-icon">
+        <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2.5" />
+        <path d="M10 17l4 4 8-10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+      <span>VeriSight</span>
+    </div>
+    <div class="nav-items">
+      <button class="nav-btn active" data-page="investigate" id="nav-investigate">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8" />
+          <path d="M21 21l-4.35-4.35" />
+        </svg>
+        <span>Investigation</span>
+      </button>
+      <button class="nav-btn" data-page="analytics" id="nav-analytics">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path d="M18 20V10M12 20V4M6 20v-6" />
+        </svg>
+        <span>Analytics</span>
+      </button>
+      <button class="nav-btn" data-page="queue" id="nav-queue">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round">
+          <rect x="3" y="3" width="7" height="7" rx="1" />
+          <rect x="14" y="3" width="7" height="7" rx="1" />
+          <rect x="3" y="14" width="7" height="7" rx="1" />
+          <rect x="14" y="14" width="7" height="7" rx="1" />
+        </svg>
+        <span>Review Queue</span>
+      </button>
+    </div>
+    <div class="sidebar-footer">
+      <div class="status-dot"></div>
+      <span>System Online</span>
+    </div>
+  </nav>
+
+  <!-- ─── Main Content ─── -->
+  <main class="main-content">
+
+    <!-- ════════════════════════════════════════════════════════════════════ -->
+    <!-- PAGE 1: LIVE INVESTIGATION                                         -->
+    <!-- ════════════════════════════════════════════════════════════════════ -->
+    <div class="page active" id="page-investigate">
+      <div class="page-header">
+        <h1>Live Investigation</h1>
+        <span class="header-badge">Real-time Analysis</span>
+      </div>
+
+      <div class="two-col">
+
+        <!-- LEFT PANEL -->
+        <div class="panel left-panel">
+          <div class="panel-card">
+            <h2 class="panel-title">Evidence Upload</h2>
+
+            <div id="drop-zone" class="drop-zone">
+              <input type="file" id="file-input" accept="image/*" hidden />
+              <svg class="upload-svg" viewBox="0 0 48 48" fill="none">
+                <path d="M14 30l10-10 10 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M24 20v20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <path d="M40 32a8 8 0 00-7.16-7.95A12 12 0 1010 28h2" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <span class="drop-label">Drop image or <button type="button" id="browse-btn"
+                  class="link-btn">browse</button></span>
+              <span class="drop-hint">JPG, JPEG, PNG — max 10 MB</span>
+            </div>
+
+            <!-- Image Preview -->
+            <div id="preview-wrap" class="preview-wrap hidden">
+              <img id="preview-img" alt="Preview" />
+              <div class="preview-bar">
+                <span id="preview-name" class="preview-name"></span>
+                <button type="button" id="remove-btn" class="tiny-btn" title="Remove">✕</button>
+              </div>
+            </div>
+
+            <!-- Heatmap Toggle -->
+            <div id="heatmap-toggle-wrap" class="toggle-wrap hidden">
+              <label class="toggle-label">
+                <input type="checkbox" id="heatmap-toggle" />
+                <span class="toggle-slider"></span>
+                Show Heatmap
+              </label>
+              <div id="heatmap-view" class="heatmap-view hidden">
+                <img id="heatmap-img" alt="ELA Heatmap" />
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-row">
+              <button type="button" id="analyze-btn" class="btn-primary" disabled>
+                <span class="btn-text">Analyze</span>
+                <svg class="btn-icon" viewBox="0 0 20 20" fill="none">
+                  <path d="M4 10h12m-4-4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+
+            <!-- Scanning Progress -->
+            <div id="scan-progress" class="scan-progress hidden">
+              <div class="scan-bar">
+                <div class="scan-fill" id="scan-fill"></div>
+              </div>
+              <p class="scan-step" id="scan-step">Initializing pipeline…</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT PANEL -->
+        <div class="panel right-panel">
+
+          <!-- Empty State -->
+          <div id="results-empty" class="empty-state">
+            <svg viewBox="0 0 64 64" fill="none" class="empty-icon">
+              <circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="2" opacity=".3" />
+              <path d="M22 32l6 6 14-16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round" opacity=".3" />
+            </svg>
+            <p>Upload an image to begin analysis</p>
+          </div>
+
+          <!-- Results (initially hidden) -->
+          <div id="results-panel" class="results-panel hidden">
+
+            <!-- SECTION A: AI Verdict Hero -->
+            <div class="verdict-card" id="verdict-card">
+              <div class="verdict-risk-label" id="verdict-risk-label">—</div>
+              <div class="verdict-row">
+                <div class="ring-wrapper">
+                  <svg class="score-ring" viewBox="0 0 120 120">
+                    <circle class="ring-track" cx="60" cy="60" r="52" />
+                    <circle id="ring-fill" class="ring-progress" cx="60" cy="60" r="52" />
+                  </svg>
+                  <div class="ring-center">
+                    <span id="score-value" class="score-big">0</span>
+                    <span class="score-of">/100</span>
+                  </div>
+                </div>
+                <div class="verdict-meta">
+                  <div class="verdict-decision" id="verdict-decision">—</div>
+                  <div class="confidence-badge" id="confidence-badge">Confidence: —</div>
+                  <div class="file-label" id="file-label">—</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- SECTION B: Smart Timeline -->
+            <div class="section-card" id="timeline-card">
+              <h3 class="section-title">Smart Timeline</h3>
+              <div class="timeline-visual" id="timeline-visual">
+                <div class="tl-node">
+                  <div class="tl-dot delivered"></div>
+                  <div class="tl-info">
+                    <span class="tl-label">Order Delivered</span>
+                    <span class="tl-date" id="tl-delivery">—</span>
+                  </div>
+                </div>
+                <div class="tl-connector" id="tl-connector"></div>
+                <div class="tl-node">
+                  <div class="tl-dot expiry"></div>
+                  <div class="tl-info">
+                    <span class="tl-label">Product Expiry</span>
+                    <span class="tl-date" id="tl-expiry">—</span>
+                  </div>
+                </div>
+                <div class="tl-alert hidden" id="tl-alert">
+                  <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+                    <path fill-rule="evenodd"
+                      d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" />
+                  </svg>
+                  <span id="tl-alert-text">Logical Inconsistency Detected</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- SECTION C: Explainability Tags -->
+            <div class="section-card">
+              <h3 class="section-title">Detected Signals</h3>
+              <div class="signals-grid" id="signals-grid">
+                <!-- Filled by JS -->
+              </div>
+            </div>
+
+            <!-- SECTION D: Risk Meter (forensic breakdown) -->
+            <div class="section-card">
+              <h3 class="section-title">Forensic Breakdown</h3>
+              <div class="forensic-bars" id="forensic-bars">
+                <!-- Filled by JS -->
+              </div>
+            </div>
+
+            <!-- SECTION E: Decision Panel -->
+            <div class="section-card">
+              <h3 class="section-title">Take Action</h3>
+              <div class="decision-grid" id="decision-grid">
+                <button class="decision-card approve" data-action="approve" id="dec-approve">
+                  <div class="dec-icon">✓</div>
+                  <div class="dec-label">Approve</div>
+                  <div class="dec-sub">Low Risk</div>
+                </button>
+                <button class="decision-card review" data-action="review" id="dec-review">
+                  <div class="dec-icon">⏳</div>
+                  <div class="dec-label">Manual Review</div>
+                  <div class="dec-sub">Medium Risk</div>
+                </button>
+                <button class="decision-card reject" data-action="reject" id="dec-reject">
+                  <div class="dec-icon">✕</div>
+                  <div class="dec-label">Reject</div>
+                  <div class="dec-sub">High Risk</div>
+                </button>
+              </div>
+              <div id="decision-toast" class="decision-toast hidden">
+                <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+                  <path fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" />
+                </svg>
+                <span>Action Logged Successfully</span>
+              </div>
+            </div>
+
+          </div><!-- /results-panel -->
+
+          <!-- Error State -->
+          <div id="error-state" class="error-state hidden">
+            <div class="error-icon">⚠</div>
+            <p id="error-text">An error occurred</p>
+            <button type="button" id="retry-btn" class="btn-primary btn-sm">Try Again</button>
+          </div>
+
+        </div><!-- /right-panel -->
+      </div><!-- /two-col -->
+    </div><!-- /page-investigate -->
+
+
+    <!-- ════════════════════════════════════════════════════════════════════ -->
+    <!-- PAGE 2: FRAUD ANALYTICS                                            -->
+    <!-- ════════════════════════════════════════════════════════════════════ -->
+    <div class="page" id="page-analytics">
+      <div class="page-header">
+        <h1>Fraud Analytics</h1>
+        <span class="header-badge">Dashboard</span>
+      </div>
+
+      <!-- KPI Row -->
+      <div class="kpi-row" id="kpi-row">
+        <div class="kpi-card">
+          <span class="kpi-label">Total Scanned</span>
+          <span class="kpi-value" id="kpi-total">—</span>
+        </div>
+        <div class="kpi-card kpi-green">
+          <span class="kpi-label">Approved</span>
+          <span class="kpi-value" id="kpi-approve">—</span>
+        </div>
+        <div class="kpi-card kpi-amber">
+          <span class="kpi-label">Manual Review</span>
+          <span class="kpi-value" id="kpi-review">—</span>
+        </div>
+        <div class="kpi-card kpi-red">
+          <span class="kpi-label">Rejected</span>
+          <span class="kpi-value" id="kpi-reject">—</span>
+        </div>
+      </div>
+
+      <!-- Hero Stat -->
+      <div class="revenue-hero" id="revenue-hero">
+        <div class="revenue-label">Revenue Protected Today</div>
+        <div class="revenue-value" id="revenue-value">₹ 0</div>
+        <div class="revenue-sub">Based on flagged & rejected claims</div>
+      </div>
+
+      <!-- Charts Row -->
+      <div class="charts-row">
+        <!-- Score Distribution -->
+        <div class="chart-card">
+          <h3 class="section-title">Score Distribution</h3>
+          <div class="bar-chart" id="score-chart">
+            <!-- Filled by JS -->
+          </div>
+        </div>
+
+        <!-- Top Flagged Categories -->
+        <div class="chart-card">
+          <h3 class="section-title">Top Flagged Categories</h3>
+          <div class="category-list" id="category-list">
+            <!-- Filled by JS -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Alerts Row -->
+      <div class="charts-row">
+        <!-- Recent High-Risk -->
+        <div class="chart-card">
+          <h3 class="section-title">Fraud Attempt Spike Alert</h3>
+          <div class="spike-alert" id="spike-alert">
+            <!-- Filled by JS -->
+          </div>
+        </div>
+
+        <!-- Avg Score -->
+        <div class="chart-card">
+          <h3 class="section-title">Average Risk Score</h3>
+          <div class="avg-score-block" id="avg-score-block">
+            <div class="avg-ring-wrapper">
+              <svg class="avg-ring" viewBox="0 0 100 100">
+                <circle class="ring-track" cx="50" cy="50" r="42" />
+                <circle id="avg-ring-fill" class="ring-progress" cx="50" cy="50" r="42" />
+              </svg>
+              <div class="avg-ring-center">
+                <span id="avg-score-val" class="avg-score-num">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /page-analytics -->
+
+
+    <!-- ════════════════════════════════════════════════════════════════════ -->
+    <!-- PAGE 3: COMPLAINT REVIEW QUEUE                                     -->
+    <!-- ════════════════════════════════════════════════════════════════════ -->
+    <div class="page" id="page-queue">
+      <div class="page-header">
+        <h1>Complaint Review Queue</h1>
+        <span class="header-badge">Enterprise</span>
+      </div>
+
+      <!-- Toolbar -->
+      <div class="queue-toolbar">
+        <div class="filter-group">
+          <label class="filter-label">Risk Level</label>
+          <select id="queue-filter" class="select-input">
+            <option value="">All</option>
+            <option value="high">High Risk</option>
+            <option value="medium">Medium Risk</option>
+            <option value="low">Low Risk</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">Sort By</label>
+          <select id="queue-sort" class="select-input">
+            <option value="score_desc">Score: High → Low</option>
+            <option value="score_asc">Score: Low → High</option>
+            <option value="name">Filename</option>
+          </select>
+        </div>
+        <div class="toolbar-spacer"></div>
+        <button type="button" id="bulk-approve-btn" class="btn-ghost" disabled>Bulk Approve Selected</button>
+        <button type="button" id="select-all-btn" class="btn-ghost">Select All</button>
+      </div>
+
+      <!-- Queue Table -->
+      <div class="queue-table-wrap">
+        <table class="queue-table" id="queue-table">
+          <thead>
+            <tr>
+              <th class="col-check"><input type="checkbox" id="check-all" /></th>
+              <th>Filename</th>
+              <th>Score</th>
+              <th>Decision</th>
+              <th>Tags</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="queue-tbody">
+            <!-- Filled by JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination" id="pagination">
+        <button type="button" id="prev-page" class="page-btn" disabled>← Prev</button>
+        <span class="page-info" id="page-info">Page 1 of 1</span>
+        <button type="button" id="next-page" class="page-btn">Next →</button>
+      </div>
+
+      <!-- Quick Preview Modal -->
+      <div id="preview-modal" class="modal-overlay hidden">
+        <div class="modal-card">
+          <div class="modal-header">
+            <h3 id="modal-title">Image Preview</h3>
+            <button type="button" id="modal-close" class="tiny-btn">✕</button>
+          </div>
+          <div class="modal-body">
+            <img id="modal-img" alt="Preview" />
+            <div class="modal-details" id="modal-details">
+              <!-- Filled by JS -->
+            </div>
+          </div>
+          <div class="modal-actions">
+            <button class="decision-card approve small" data-modal-action="approve">✓ Approve</button>
+            <button class="decision-card review small" data-modal-action="review">⏳ Review</button>
+            <button class="decision-card reject small" data-modal-action="reject">✕ Reject</button>
+          </div>
+          <div id="modal-toast" class="decision-toast hidden">
+            <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+              <path fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" />
+            </svg>
+            <span>Action Logged Successfully</span>
+          </div>
+        </div>
+      </div>
+    </div><!-- /page-queue -->
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

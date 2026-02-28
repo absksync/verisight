@@ -1,18 +1,8 @@
-# Python cache
+.venv/
 __pycache__/
-*.pyc
-
-# Virtual environment
-venv/
+ml/outputs/
+ml/data/
+*.pt
+*.pth
+*.ckpt
 .env
-
-# Temporary uploads
-uploads/
-
-# Generated output images
-backend/outputs/
-
-# Dataset images (large files)
-data/
-*.jpg
-*.png

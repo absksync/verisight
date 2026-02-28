@@ -10,6 +10,9 @@ def parse_expiry(expiry_text):
         return None
 
     formats = [
+        "%Y-%m-%d",
+        "%Y/%m/%d",
+        "%Y.%m.%d",
         "%m/%Y",
         "%m-%Y",
         "%m/%y",
@@ -20,6 +23,8 @@ def parse_expiry(expiry_text):
         "%d-%m-%y",
         "%m.%d.%Y",
         "%m-%d-%Y",
+        "%d/%m/%Y",
+        "%m/%d/%Y",
     ]
 
     for fmt in formats:

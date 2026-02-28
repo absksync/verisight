@@ -1,8 +1,10 @@
 import cv2
 import os
 import uuid
+from pathlib import Path
 
-HIGHLIGHT_DIR = r"C:/Users/Apoorva/Desktop/VERISIGHT/ml/outputs/highlighted"
+# Use a project-relative path that works on any OS
+HIGHLIGHT_DIR = str(Path(__file__).resolve().parents[1] / "outputs" / "highlighted")
 os.makedirs(HIGHLIGHT_DIR, exist_ok=True)
 
 def highlight_region(image_path, bbox):
