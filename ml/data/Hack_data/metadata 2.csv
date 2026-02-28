@@ -1,0 +1,39 @@
+filename,category,delivery_date,expected_label
+original_01.jpeg,original,2026-02-18,Approve
+original_02.jpeg,original,03-10-2026,Approve
+original_03.jpeg,original,03-03-2026,Approve
+original_04.jpeg,original,01-11-2025,Approve
+original_05.jpeg,original,24-04-2026,Approve
+original_06.jpeg,original,10-07-2026,Approve
+original_07.jpeg,original,01-05-2026,Approve
+original_08.jpeg,original,15-06-2027,Approve
+original_09.jpeg,original,05-04-2026,Approve
+original_10.jpeg,original,19-11-2026,Approve
+edited_01.jpeg,edited,2026-02-18,Reject
+edited_02.jpeg,edited,2026-02-18,Reject
+edited_03.jpeg,edited,2026-02-18,Reject
+edited_04.jpeg,edited,24-04-2026,Reject
+edited_05.jpeg,edited,03-10-2026,Reject
+edited_06.jpeg,edited,09.03.26,Reject
+edited_07.jpeg,edited,19-11-2026,Reject
+edited_08.jpeg,edited,2026-02-13,Reject
+edited_09.jpeg,edited,01-05-2026,Reject
+edited_10.jpeg,edited,05-04-2026,Reject
+ai_01.jpeg,ai_generated,03-03-2026,Reject
+ai_02.jpeg,ai_generated,2026-02-10,Reject
+ai_03.jpeg,ai_generated,2026-02-10,Reject
+ai_04.jpeg,ai_generated,2026-02-10,Reject
+ai_05.jpeg,ai_generated,2026-02-18,Reject
+ai_06.jpeg,ai_generated,09.03.26,Reject
+ai_07.jpeg,ai_generated,19-11-2026,Reject
+ai_08.jpeg,ai_generated,10-07-2026,Reject
+ai_09.jpeg,ai_generated,2026-02-13,Reject
+ai_10.jpeg,ai_generated,05-04-2026,Reject
+WhatsApp Image 2026-02-27 at 22.54.23.jpeg,,2026-02-02,
+WhatsApp Image 2026-02-27 at 23.35.46.jpeg,,2026-02-02,
+WhatsApp Image 2026-02-27 at 22.51.21.jpeg,,2026-02-10,
+WhatsApp Image 2026-02-27 at 15.02.19.jpeg,,2026-02-18,
+WhatsApp Image 2026-02-28 at 02.06.44.jpeg,,2026-02-02,
+WhatsApp Image 2026-02-28 at 02.08.36.jpeg,,2026-02-02,
+WhatsApp Image 2026-02-28 at 02.08.24.jpeg,,2026-02-02,
+WhatsApp Image 2026-02-28 at 02.12.49.jpeg,,2026-02-10,

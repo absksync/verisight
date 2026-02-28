@@ -1,21 +1,7 @@
-# Python
-.venv/
-__pycache__/
-*.pyc
-
-# OS junk
-.DS_Store
-
-# ML data
-ml/data/
-ml/outputs/
-
-# uploads
-uploads/
-
-# Node
 node_modules/
 frontend/node_modules/
-
-# env files
+uploads/
+ml/outputs/
+*.DS_Store
 .env
+__pycache__/

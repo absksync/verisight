@@ -146,15 +146,15 @@ async def _startup():
 # ══════════════════════════════════════════════════════════════════════════════
 
 def _risk_level(score: int) -> str:
-    if score < 35:
+    if score < 30:
         return "LOW"
-    return "MEDIUM" if score < 65 else "HIGH"
+    return "MEDIUM" if score < 60 else "HIGH"
 
 
 def _predicted_class(score: int) -> str:
-    if score >= 65:
+    if score >= 60:
         return "Tampered"
-    return "Suspicious" if score >= 35 else "Authentic"
+    return "Suspicious" if score >= 30 else "Authentic"
 
 
 def _timeline_to_check(timeline: str) -> str:
@@ -213,8 +213,8 @@ def _build_signals(output: dict, *, ocr_regions: list[dict] | None = None) -> li
 
     signals: list[dict] = []
 
-    # Synthetic Pattern — only if ViT strongly indicates AI-generated
-    if vit > 0.8:
+    # Synthetic Pattern — ViT indicates AI-generated content
+    if vit > 0.55:
         signals.append({
             "name": "Synthetic Pattern",
             "detected": True,
@@ -237,8 +237,8 @@ def _build_signals(output: dict, *, ocr_regions: list[dict] | None = None) -> li
             "confidence": int(min(100, max(0, ela * 100))),
         })
 
-    # Texture Irregularity — only if FFT detects spectral anomaly
-    if fft > 0.3:
+    # Texture Irregularity — only if FFT detects clear spectral anomaly
+    if fft > 0.4:
         signals.append({
             "name": "Texture Irregularity",
             "detected": True,
@@ -289,71 +289,100 @@ def _adjust_score(
     fft_score: float = 0.0,
     ocr_conf: float = 1.0,
     ocr_regions: list[dict] | None = None,
+    has_exif: bool = True,
     expiry_text: str | None = None,
     detected_price: float | None = None,
 ) -> tuple[int, list[str]]:
-    """Conservative fraud-score refinement.
+    """Fraud-score refinement — prevents AI images from being approved.
 
-    Design goals (demo-safe):
+    Rules (deterministic, production-safe):
+      1. Suspicious floor (50)  — any single AI indicator fires
+      2. Strong-AI escalation (70) — 2+ strong AI indicators
+      3. OCR hallucination boost (+15) — detected numbers with low confidence
+      4. Missing EXIF boost (+10) — AI-generated images lack metadata
+      5. Clamp to [0, 100]
+
+    Target ranges:
       • Real product photos → 10–30  (Approve)
-      • Edited / tampered   → 35–65  (Manual Review)
-      • AI-generated        → 55–90  (Manual Review / Reject)
-
-    Key principles:
-      • ViT alone cannot cause a Reject.
-      • Synthetic Pattern must combine with another signal to boost.
-      • Low OCR confidence *reduces* score (noisy text ≠ fraud).
-      • Genuine-product indicators (expiry date, price) give a safety reduction.
+      • Edited / tampered   → 40–60  (Manual Review)
+      • AI-generated        → 60–85  (Reject)
 
     Returns ``(adjusted_score, updated_tags)``.
     """
     tags = list(tags)  # copy — never mutate the caller's list
-    boost = 0
+    adjusted = score
 
-    # ── 1) AI pattern influence (moderate) ────────────────────────────────
-    if vit_score > 0.85:
-        boost += 15
-        logger.info("  ↳ ViT %.2f > 0.85 → +15", vit_score)
-    elif vit_score > 0.70:
-        boost += 8
-        logger.info("  ↳ ViT %.2f > 0.70 → +8", vit_score)
+    # ── Detect Layout Anomaly from OCR regions (real measurement) ─────────
+    has_layout_anomaly = bool(ocr_regions and _detect_layout_anomaly(ocr_regions))
+    if has_layout_anomaly and "Layout Anomaly" not in tags:
+        tags.append("Layout Anomaly")
 
-    # ── 2) Synthetic Pattern ONLY boosts when corroborated ───────────────
-    if "Synthetic Pattern" in tags and vit_score > 0.75:
-        boost += 15
-        logger.info("  ↳ Synthetic Pattern + ViT %.2f > 0.75 → +15", vit_score)
-    elif "Synthetic Pattern" in tags:
-        boost += 5
-        logger.info("  ↳ Synthetic Pattern (tag present, ViT %.2f) → +5", vit_score)
+    # ── Collect AI indicators ─────────────────────────────────────────────
+    has_synthetic = "Synthetic Pattern" in tags
+    has_texture   = "Texture Irregularity" in tags
+    has_layout    = "Layout Anomaly" in tags
+    high_vit      = vit_score > 0.55
+    low_ocr       = ocr_conf < 0.4
+    exif_missing  = not has_exif
 
-    # ── 3) Layout anomaly (still useful, but capped) ─────────────────────
-    if ocr_regions and _detect_layout_anomaly(ocr_regions):
-        boost += 5
-        if "Layout Anomaly" not in tags:
-            tags.append("Layout Anomaly")
-        logger.info("  ↳ Layout anomaly detected → +5")
-
-    # ── 4) OCR failure → reduce score (noise ≠ fraud) ────────────────────
-    if ocr_conf < 0.3:
-        boost -= 5
-        logger.info("  ↳ OCR confidence %.2f < 0.3 → −5 (noise, not fraud)", ocr_conf)
-
-    # ── 5) Real-image safety: expiry / price = genuine product ────────────
-    if expiry_text or detected_price is not None:
-        boost -= 10
+    # ── Rule 1: Suspicious floor (50) ─────────────────────────────────────
+    # EXIF missing alone is NOT a floor trigger — most uploaded images
+    # have EXIF stripped by platforms. It only applies as a boost (Rule 4)
+    # when combined with other indicators.
+    suspicious = (
+        high_vit
+        or has_synthetic
+        or has_texture
+        or has_layout
+        or low_ocr
+    )
+    if suspicious:
+        prev = adjusted
+        adjusted = max(adjusted, 50)
         logger.info(
-            "  ↳ Genuine-product safety (expiry=%s price=%s) → −10",
-            expiry_text, detected_price,
+            "  ↳ Suspicious floor: %d → %d  (vit>0.55=%s syn=%s tex=%s lay=%s ocr<0.4=%s)",
+            prev, adjusted, high_vit, has_synthetic, has_texture,
+            has_layout, low_ocr,
         )
 
-    adjusted = max(0, min(100, score + boost))
+    # ── Rule 2: Strong AI escalation (70) ─────────────────────────────────
+    strong_count = sum([
+        has_synthetic,
+        has_texture,
+        has_layout,
+        vit_score > 0.6,
+    ])
+    if strong_count >= 2:
+        prev = adjusted
+        adjusted = max(adjusted, 70)
+        logger.info("  ↳ Strong AI escalation (%d/4 indicators) → floor 70 (was %d → %d)",
+                    strong_count, prev, adjusted)
+
+    # ── Rule 3: OCR hallucination boost (+15) ─────────────────────────────
+    ocr_has_numbers = False
+    if ocr_regions:
+        for r in ocr_regions:
+            if any(c.isdigit() for c in r.get("text", "")):
+                ocr_has_numbers = True
+                break
+    if ocr_has_numbers and ocr_conf < 0.5:
+        adjusted += 15
+        logger.info("  ↳ OCR hallucination (numbers + conf %.2f < 0.5) → +15", ocr_conf)
+
+    # ── Rule 4: Missing EXIF boost (+10) — only when other AI indicators present ──
+    if exif_missing and suspicious:
+        adjusted += 10
+        logger.info("  ↳ EXIF metadata missing + suspicious → +10")
+
+    # ── Rule 5: Clamp to [0, 100] ────────────────────────────────────────
+    adjusted = min(100, max(0, adjusted))
 
     logger.info(
-        "  ── Score components: base=%d boost=%+d → adjusted=%d | "
-        "vit=%.3f ela=%.3f fft=%.3f ocr_conf=%.2f tags=%s",
-        score, boost, adjusted,
+        "  ── Score: base=%d → adjusted=%d | vit=%.3f ela=%.3f fft=%.3f "
+        "ocr=%.2f exif=%s tags=%s",
+        score, adjusted,
         vit_score, ela_score, fft_score, ocr_conf,
-        ";".join(tags) if tags else "(none)",
+        has_exif, ";".join(tags) if tags else "(none)",
     )
 
     return adjusted, tags
@@ -412,7 +441,7 @@ def _load_results() -> pd.DataFrame:
             ocr_c = float(row.get("ocr_confidence", 1.0))
             a, _ = _adjust_score(raw, tags, vit, ela_score=ela, fft_score=fft, ocr_conf=ocr_c)
             adj.append(a)
-            dec.append("Approve" if a < 35 else ("Manual Review" if a < 65 else "Reject"))
+            dec.append("Approve" if a < 30 else ("Manual Review" if a < 60 else "Reject"))
         df["adj_score"] = adj
         df["adj_decision"] = dec
         return df
@@ -596,14 +625,15 @@ async def _do_predict(
         fft_score=fft_score,
         ocr_conf=ocr_conf,
         ocr_regions=ocr_regions,
+        has_exif=has_exif,
         expiry_text=output.get("expiry_text"),
         detected_price=detected_price,
     )
 
-    # ── Recalculate decision AFTER all adjustments (conservative thresholds) ─
-    if adjusted_score < 35:
+    # ── Recalculate decision AFTER all adjustments ──────────────────────────
+    if adjusted_score < 30:
         decision = "Approve"
-    elif adjusted_score < 65:
+    elif adjusted_score < 60:
         decision = "Manual Review"
     else:
         decision = "Reject"
