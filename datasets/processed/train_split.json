@@ -1,0 +1,901 @@
+[
+  {
+    "id": "exp_img_00067.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00067.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.04.05",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1dmikm_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1dmikm/1dmikm_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00031.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00031.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2022.09.02",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1aws4w_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1aws4w/1aws4w_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00014.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00014.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "MAR 22 21",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00043.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00043.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.12.18",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00096.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00096.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "DEC-28-2021",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00003.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00003.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "21.05.26",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00046.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00046.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "02.01",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00065.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00065.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "24/07/2020",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1cxupi_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1cxupi/1cxupi_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1b68xn_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1b68xn/1b68xn_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9x67wt_0",
+    "path": "datasets/raw/imd2020/IMD2020/1e5jsy/c9x67wt_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_1cu6rq_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1cu6rq/1cu6rq_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1d9ly5_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d9ly5/1d9ly5_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00045.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00045.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2022/02/26",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_00009_fake",
+    "path": "datasets/raw/imd2020/IMD2020/z3/00009_fake.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c9o51n8_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d860v/c9o51n8_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00004.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00004.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.03.23",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9l597y_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cxupi/c9l597y_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00016.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00016.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "03/04/23",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1bv5l3_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bv5l3/1bv5l3_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1bz432_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bz432/1bz432_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9lnnea_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d0bba/c9lnnea_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c95j6gb_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bbuj9/c95j6gb_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_1d0g26_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d0g26/1d0g26_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00048.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00048.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.06.10",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00006.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00006.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "22.10.2020",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c968kn0_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bek0p/c968kn0_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00037.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00037.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2022.05.05",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00062.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00062.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "03/04/2020",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00013.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00013.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "FEB/26/21",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00070.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00070.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2024.03.10",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1d8099_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d8099/1d8099_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1d5zdj_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d5zdj/1d5zdj_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00038.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00038.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.10.19",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00080.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00080.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "02.09",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00033.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00033.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "31-08-2021",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1dv6ms_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1dv6ms/1dv6ms_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1bbuj9_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bbuj9/1bbuj9_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1dtll6_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1dtll6/1dtll6_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00011.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00011.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "15-09-2021",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9f3da2_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cbqiu/c9f3da2_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00085.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00085.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.11.11",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1c9e7e_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1c9e7e/1c9e7e_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1e6s35_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1e6s35/1e6s35_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9ed8pk_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c9e7e/c9ed8pk_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00081.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00081.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "10/08/2021",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9odpwo_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d9tn1/c9odpwo_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00053.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00053.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.05.26",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1e1wq5_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1e1wq5/1e1wq5_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00074.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00074.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "21.01.29",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00044.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00044.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2022.03.11",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00001.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00001.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2025/01/28",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9trg08_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dtll6/c9trg08_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00017.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00017.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "15/07/2020",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00079.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00079.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "23.07.2021",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9w2r6t_0",
+    "path": "datasets/raw/imd2020/IMD2020/1e1wq5/c9w2r6t_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c9o3qze_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d8099/c9o3qze_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00061.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00061.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "29 08 2020",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c92zvkq_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b26rs/c92zvkq_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c98el2l_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bnjhf/c98el2l_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00039.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00039.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.07.21",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00077.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00077.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2023/10/21",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1bek0p_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bek0p/1bek0p_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00020.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00020.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.07.09",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00015.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00015.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.07.01",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1d860v_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d860v/1d860v_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1dzfup_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1dzfup/1dzfup_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1dxi3r_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1dxi3r/1dxi3r_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00066.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00066.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2022.09.16",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9u5f90_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dv6ms/c9u5f90_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c9d9dft_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c56yh/c9d9dft_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00047.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00047.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "02.02",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1dqmdg_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1dqmdg/1dqmdg_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1bws7y_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bws7y/1bws7y_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00055.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00055.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.01.20",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1d0m2h_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d0m2h/1d0m2h_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9bp70d_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bzitw/c9bp70d_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c9sl9vi_0",
+    "path": "datasets/raw/imd2020/IMD2020/1doo2u/c9sl9vi_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c91681h_0",
+    "path": "datasets/raw/imd2020/IMD2020/1aut4s/c91681h_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c9bk4ex_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bz432/c9bk4ex_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c95iajl_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bax4h/c95iajl_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00034.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00034.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "01.2022",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00019.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00019.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.01.04",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1aut4s_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1aut4s/1aut4s_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_00009_orig",
+    "path": "datasets/raw/imd2020/IMD2020/z3/00009_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1bigvi_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bigvi/1bigvi_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00064.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00064.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.09.30",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00084.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00084.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2022.01.18",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_00022_orig",
+    "path": "datasets/raw/imd2020/IMD2020/z5/00022_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1bnjhf_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bnjhf/1bnjhf_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_00022_fake",
+    "path": "datasets/raw/imd2020/IMD2020/z5/00022_fake.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00073.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00073.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "02.14",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00028.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00028.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2020/02/15",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_00006_fake",
+    "path": "datasets/raw/imd2020/IMD2020/z2/00006_fake.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c91js2j_0",
+    "path": "datasets/raw/imd2020/IMD2020/1aws4w/c91js2j_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00052.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00052.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.07.29",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9bkfb3_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bza2v/c9bkfb3_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00005.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00005.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "23.07.2022",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00030.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00030.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2025/05/19",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1bvscz_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bvscz/1bvscz_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00100.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00100.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "02.18",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00099.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00099.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "MAR 04 2021",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_00010_fake_01",
+    "path": "datasets/raw/imd2020/IMD2020/z4/00010_fake_01.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c9au1qa_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bws7y/c9au1qa_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c92uvo3_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b18vd/c92uvo3_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_1doo2u_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1doo2u/1doo2u_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c92lydr_0",
+    "path": "datasets/raw/imd2020/IMD2020/1azru8/c92lydr_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c9pfvx9_0",
+    "path": "datasets/raw/imd2020/IMD2020/1de0l0/c9pfvx9_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_1bzitw_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bzitw/1bzitw_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00049.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00049.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.08.23",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1e5jsy_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1e5jsy/1e5jsy_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9cufxm_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c3l17/c9cufxm_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_1d9tn1_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d9tn1/1d9tn1_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_00010_orig",
+    "path": "datasets/raw/imd2020/IMD2020/z4/00010_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00069.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00069.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "21.02.05",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00022.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00022.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "MAY 27 2021",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00082.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00082.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2022.10.17",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00078.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00078.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2023/11/14",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00010.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00010.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "25 07 2020",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00083.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00083.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2022/06/30",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1b18vd_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1b18vd/1b18vd_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1de0l0_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1de0l0/1de0l0_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00090.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00090.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "03 11 2020",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00035.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00035.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "01.2022",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00086.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00086.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.06.25",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00054.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00054.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "21.01.25",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00091.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00091.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2020.12.15",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00095.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00095.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "DEC-28-2021",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00042.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00042.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.12.08",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00094.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00094.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.08.20",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c92dgp0_0",
+    "path": "datasets/raw/imd2020/IMD2020/1azvyy/c92dgp0_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_1d0bba_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d0bba/1d0bba_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1b26rs_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1b26rs/1b26rs_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00026.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00026.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2022.06.20",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c8x3rcx_0",
+    "path": "datasets/raw/imd2020/IMD2020/1afv6o/c8x3rcx_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_1bax4h_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bax4h/1bax4h_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00075.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00075.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2022.07.19",
+    "is_tampered": false
+  }
+]

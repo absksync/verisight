@@ -1,0 +1,203 @@
+[
+  {
+    "id": "imd_1c3l17_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1c3l17/1c3l17_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9lvfdp_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d0g26/c9lvfdp_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00057.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00057.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "17.07.2022",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1c56yh_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1c56yh/1c56yh_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9r2mxr_0",
+    "path": "datasets/raw/imd2020/IMD2020/1djzgt/c9r2mxr_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_1bza2v_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bza2v/1bza2v_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00051.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00051.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.10.30",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9alf9o_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bv5l3/c9alf9o_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_1agrmz_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1agrmz/1agrmz_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1azru8_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1azru8/1azru8_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1cbqiu_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1cbqiu/1cbqiu_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00060.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00060.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021 07 02",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00056.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00056.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2022.06.11",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00024.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00024.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "19 09 2021",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00008.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00008.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "29 NOV 2021",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00009.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00009.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "25.09.2021",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9ru0d5_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dmikm/c9ru0d5_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c9nf4zp_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d5zdj/c9nf4zp_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00023.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00023.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.04.05",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9vhc8k_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dzfup/c9vhc8k_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c9729qx_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bigvi/c9729qx_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00027.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00027.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.06.02",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1djzgt_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1djzgt/1djzgt_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00036.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00036.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "20-09-2021",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00058.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00058.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021/10/28",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00063.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00063.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021 09 14",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00071.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00071.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "11 12 21",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c949n9f_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b68xn/c949n9f_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00007.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00007.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "04/03/2023",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00029.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00029.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "01/12/21",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9uudgq_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dxi3r/c9uudgq_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  }
+]

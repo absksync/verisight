@@ -1,0 +1,196 @@
+[
+  {
+    "id": "exp_img_00059.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00059.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021/10/28",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9o87nu_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d9ly5/c9o87nu_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00018.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00018.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.06.08",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00050.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00050.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "13/03/22",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00093.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00093.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "15 FEB 22",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00076.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00076.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2022.01.26",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9k2gmo_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cu6rq/c9k2gmo_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00021.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00021.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021 12 04",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00097.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00097.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "20/07/21",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00032.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00032.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "01/11/2021",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9ls62j_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d0m2h/c9ls62j_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_1azvyy_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1azvyy/1azvyy_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00012.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00012.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "15.10.2021",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00068.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00068.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.10.20",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00089.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00089.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2023/08/03",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00092.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00092.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021 08 08",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00025.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00025.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "07 FEB 2022",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00098.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00098.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2022.05.20",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9anb73_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bvscz/c9anb73_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "imd_c8xdawa_0",
+    "path": "datasets/raw/imd2020/IMD2020/1agrmz/c8xdawa_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00087.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00087.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "02/12/22",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_1afv6o_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1afv6o/1afv6o_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00040.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00040.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2022.06.06",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_c9xd4rq_0",
+    "path": "datasets/raw/imd2020/IMD2020/1e6s35/c9xd4rq_0.jpg",
+    "type": "forgery_detection",
+    "is_tampered": true
+  },
+  {
+    "id": "exp_img_00088.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00088.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "05.05.2020",
+    "is_tampered": false
+  },
+  {
+    "id": "imd_00006_orig",
+    "path": "datasets/raw/imd2020/IMD2020/z2/00006_orig.jpg",
+    "type": "authentic_baseline",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00041.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00041.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021.09.17",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00002.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00002.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "2021/10/28",
+    "is_tampered": false
+  },
+  {
+    "id": "exp_img_00072.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00072.jpg",
+    "type": "expdate_verification",
+    "ground_truth_date": "22.01.25",
+    "is_tampered": false
+  }
+]
