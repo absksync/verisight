@@ -9,7 +9,6 @@ __pycache__/
 # Node / Frontend
 node_modules/
 frontend/node_modules/
-frontend/dist/
 .vite/
 .eslintcache
 
@@ -24,3 +23,16 @@ backend/uploads/*
 .DS_Store
 *.log
 Thumbs.db
+
+# Docker
+.dockerignore
+
+# Models — track trained weights (pkl are small, <10MB)
+# models/tamper_classifier.pkl  ← tracked intentionally
+# models/tamper_scaler.pkl      ← tracked intentionally
+models/checkpoints/
+models/cnn/
+models/vgg16/
+
+# Reports — track generated reports
+# reports/tamper_model_report.json ← tracked intentionally

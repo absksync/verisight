@@ -5,8 +5,8 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-# Default reference date for verification
-DEFAULT_REFERENCE_DATE = date(2026, 8, 14)
+# Default reference date for verification — always today
+DEFAULT_REFERENCE_DATE = date.today()
 
 class DateExtractor:
     """

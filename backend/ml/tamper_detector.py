@@ -3,10 +3,22 @@ import numpy as np
 from PIL import Image, ImageChops, ImageEnhance
 import io
 import base64
-from typing import Dict, Any, List, Tuple
+from pathlib import Path
+from typing import Dict, Any, List, Optional, Tuple
 import logging
 
+try:
+    import joblib
+    _JOBLIB_AVAILABLE = True
+except ImportError:
+    _JOBLIB_AVAILABLE = False
+
 logger = logging.getLogger(__name__)
+
+_BASE_DIR    = Path(__file__).resolve().parent.parent.parent
+_MODELS_DIR  = _BASE_DIR / "models"
+_CLF_PATH    = _MODELS_DIR / "tamper_classifier.pkl"
+_SCALER_PATH = _MODELS_DIR / "tamper_scaler.pkl"
 
 class PackagingTamperDetector:
     """
@@ -18,6 +30,54 @@ class PackagingTamperDetector:
     def __init__(self, ela_quality: int = 90, ela_scale: float = 15.0):
         self.ela_quality = ela_quality
         self.ela_scale = ela_scale
+        self.ml_classifier: Optional[Any] = None
+        self.ml_scaler: Optional[Any] = None
+        self._load_trained_model()
+
+    def _load_trained_model(self) -> None:
+        """Attempt to load the trained RandomForest tamper classifier."""
+        if not _JOBLIB_AVAILABLE:
+            logger.info("joblib not available — using classical CV tamper scoring.")
+            return
+        if _CLF_PATH.exists() and _SCALER_PATH.exists():
+            try:
+                self.ml_classifier = joblib.load(str(_CLF_PATH))
+                self.ml_scaler     = joblib.load(str(_SCALER_PATH))
+                logger.info(f"✅ Trained tamper model loaded from {_CLF_PATH}")
+            except Exception as e:
+                logger.warning(f"Could not load trained model: {e} — falling back to classical CV.")
+        else:
+            logger.info("No trained model found — using classical CV tamper scoring.")
+
+    def _extract_ml_features(self, pil_img: Image.Image, cv_img: np.ndarray,
+                              ela_score: float, noise_score: float,
+                              edge_score: float) -> np.ndarray:
+        """Build the 7-dim feature vector matching train_tamper_model.py."""
+        # DCT high-frequency inconsistency
+        gray_f = cv2.cvtColor(cv_img, cv2.COLOR_BGR2GRAY).astype(np.float32)
+        h, w = gray_f.shape
+        dct_scores = []
+        for y in range(0, h - 8, 8):
+            for x in range(0, w - 8, 8):
+                block = gray_f[y:y+8, x:x+8]
+                dct   = cv2.dct(block)
+                dct_scores.append(float(np.sum(np.abs(dct[2:, 2:]))))
+        if dct_scores:
+            arr = np.array(dct_scores)
+            dct_score = float(min(1.0, np.std(arr) / (np.mean(arr) + 1e-6)))
+        else:
+            dct_score = 0.0
+
+        gray_u8 = cv2.cvtColor(cv_img, cv2.COLOR_BGR2GRAY)
+        brightness  = float(np.mean(gray_u8)) / 255.0
+        contrast    = float(np.std(gray_u8))  / 128.0
+        interaction = ela_score * noise_score
+
+        return np.array(
+            [ela_score, noise_score, edge_score, dct_score,
+             brightness, contrast, interaction],
+            dtype=np.float32
+        )
 
     def compute_ela(self, pil_image: Image.Image) -> Tuple[np.ndarray, float]:
         """
@@ -219,8 +279,24 @@ class PackagingTamperDetector:
         heatmap_b64, hotspots = self.generate_heatmap_and_regions(cv_img, ela_map, noise_map, edge_map)
 
         # 5. Calculate Aggregate Tamper Score
-        tamper_score = (0.50 * ela_score) + (0.30 * noise_score) + (0.20 * edge_score)
-        # Cap and scale to 0.0 - 1.0
+        if self.ml_classifier is not None and self.ml_scaler is not None:
+            # ── ML path: use trained RandomForest probability ──────────────
+            try:
+                feat = self._extract_ml_features(pil_img, cv_img, ela_score, noise_score, edge_score)
+                feat_sc = self.ml_scaler.transform(feat.reshape(1, -1))
+                # probability of class 1 (Tampered)
+                ml_prob = float(self.ml_classifier.predict_proba(feat_sc)[0][1])
+                # Blend: 70% ML signal + 30% classical (keeps heatmap coherent)
+                classical_score = (0.50 * ela_score) + (0.30 * noise_score) + (0.20 * edge_score)
+                tamper_score = 0.70 * ml_prob + 0.30 * classical_score
+                logger.debug(f"ML tamper prob={ml_prob:.3f}, classical={classical_score:.3f}, blended={tamper_score:.3f}")
+            except Exception as e:
+                logger.warning(f"ML scoring failed ({e}), falling back to classical CV.")
+                tamper_score = (0.50 * ela_score) + (0.30 * noise_score) + (0.20 * edge_score)
+        else:
+            # ── Classical CV path (no model loaded) ───────────────────────
+            tamper_score = (0.50 * ela_score) + (0.30 * noise_score) + (0.20 * edge_score)
+
         tamper_score = min(1.0, max(0.0, tamper_score))
 
         # Adjust score if explicit high-severity hotspot contours are detected
@@ -248,6 +324,7 @@ class PackagingTamperDetector:
             "verdict_description": verdict_desc,
             "heatmap_image": heatmap_b64,
             "anomalous_regions": hotspots,
+            "ml_model_active": self.ml_classifier is not None,
             "forensic_breakdown": {
                 "ela_compression_error": round(ela_score, 3),
                 "noise_discrepancy": round(noise_score, 3),

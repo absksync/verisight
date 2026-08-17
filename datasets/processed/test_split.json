@@ -1,203 +1,5821 @@
 [
   {
-    "id": "imd_1c3l17_orig",
-    "path": "datasets/raw/imd2020/IMD2020/1c3l17/1c3l17_orig.jpg",
-    "type": "authentic_baseline",
-    "is_tampered": false
+    "id": "imd_tamp_c9gg5nc_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cglge/c9gg5nc_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cglge/c9gg5nc_0_mask.png",
+    "has_date_annotation": false
   },
   {
-    "id": "imd_c9lvfdp_0",
-    "path": "datasets/raw/imd2020/IMD2020/1d0g26/c9lvfdp_0.jpg",
-    "type": "forgery_detection",
-    "is_tampered": true
+    "id": "off_4.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/409/910/009/4862/4.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
   },
   {
-    "id": "exp_img_00057.jpg",
-    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00057.jpg",
+    "id": "imd_auth_1cueig_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1cueig/1cueig_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c910wxp_0",
+    "path": "datasets/raw/imd2020/IMD2020/1aut4s/c910wxp_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1aut4s/c910wxp_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8yjs3y_0",
+    "path": "datasets/raw/imd2020/IMD2020/1al8oy/c8yjs3y_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1al8oy/c8yjs3y_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9fqbs0_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cdqz3/c9fqbs0_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cdqz3/c9fqbs0_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/021/570/304/4804/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1afvdd_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1afvdd/1afvdd_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9jq15h_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cssa3/c9jq15h_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cssa3/c9jq15h_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9h6icz_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cj6ta/c9h6icz_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cj6ta/c9h6icz_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00547.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00547.jpg",
     "type": "expdate_verification",
-    "ground_truth_date": "17.07.2022",
-    "is_tampered": false
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "21.04.12",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
   },
   {
-    "id": "imd_1c56yh_orig",
-    "path": "datasets/raw/imd2020/IMD2020/1c56yh/1c56yh_orig.jpg",
-    "type": "authentic_baseline",
-    "is_tampered": false
+    "id": "imd_tamp_c99ml73_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bsc5v/c99ml73_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bsc5v/c99ml73_0_mask.png",
+    "has_date_annotation": false
   },
   {
-    "id": "imd_c9r2mxr_0",
-    "path": "datasets/raw/imd2020/IMD2020/1djzgt/c9r2mxr_0.jpg",
-    "type": "forgery_detection",
-    "is_tampered": true
-  },
-  {
-    "id": "imd_1bza2v_orig",
-    "path": "datasets/raw/imd2020/IMD2020/1bza2v/1bza2v_orig.jpg",
-    "type": "authentic_baseline",
-    "is_tampered": false
-  },
-  {
-    "id": "exp_img_00051.jpg",
-    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00051.jpg",
+    "id": "exp_img_00498.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00498.jpg",
     "type": "expdate_verification",
-    "ground_truth_date": "2021.10.30",
-    "is_tampered": false
-  },
-  {
-    "id": "imd_c9alf9o_0",
-    "path": "datasets/raw/imd2020/IMD2020/1bv5l3/c9alf9o_0.jpg",
-    "type": "forgery_detection",
-    "is_tampered": true
-  },
-  {
-    "id": "imd_1agrmz_orig",
-    "path": "datasets/raw/imd2020/IMD2020/1agrmz/1agrmz_orig.jpg",
-    "type": "authentic_baseline",
-    "is_tampered": false
-  },
-  {
-    "id": "imd_1azru8_orig",
-    "path": "datasets/raw/imd2020/IMD2020/1azru8/1azru8_orig.jpg",
-    "type": "authentic_baseline",
-    "is_tampered": false
-  },
-  {
-    "id": "imd_1cbqiu_orig",
-    "path": "datasets/raw/imd2020/IMD2020/1cbqiu/1cbqiu_orig.jpg",
-    "type": "authentic_baseline",
-    "is_tampered": false
-  },
-  {
-    "id": "exp_img_00060.jpg",
-    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00060.jpg",
-    "type": "expdate_verification",
-    "ground_truth_date": "2021 07 02",
-    "is_tampered": false
-  },
-  {
-    "id": "exp_img_00056.jpg",
-    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00056.jpg",
-    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
     "ground_truth_date": "2022.06.11",
-    "is_tampered": false
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
   },
   {
-    "id": "exp_img_00024.jpg",
-    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00024.jpg",
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/843/701/273/3053/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_01021.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01021.jpg",
     "type": "expdate_verification",
-    "ground_truth_date": "19 09 2021",
-    "is_tampered": false
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "15.06.2022",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
   },
   {
-    "id": "exp_img_00008.jpg",
-    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00008.jpg",
+    "id": "imd_tamp_c8z0zg4_0",
+    "path": "datasets/raw/imd2020/IMD2020/1anhg4/c8z0zg4_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1anhg4/c8z0zg4_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_5.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/800/875/773/3235/5.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9jwdvv_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cssa3/c9jwdvv_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cssa3/c9jwdvv_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9lqual_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d05a0/c9lqual_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d05a0/c9lqual_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c959a6e_0",
+    "path": "datasets/raw/imd2020/IMD2020/1batnk/c959a6e_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1batnk/c959a6e_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1de6me_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1de6me/1de6me_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00721.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00721.jpg",
     "type": "expdate_verification",
-    "ground_truth_date": "29 NOV 2021",
-    "is_tampered": false
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "03/11/2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
   },
   {
-    "id": "exp_img_00009.jpg",
-    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00009.jpg",
+    "id": "exp_img_00897.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00897.jpg",
     "type": "expdate_verification",
-    "ground_truth_date": "25.09.2021",
-    "is_tampered": false
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.01.10",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
   },
   {
-    "id": "imd_c9ru0d5_0",
-    "path": "datasets/raw/imd2020/IMD2020/1dmikm/c9ru0d5_0.jpg",
-    "type": "forgery_detection",
-    "is_tampered": true
+    "id": "off_177.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/327/408/000/5003/177.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
   },
   {
-    "id": "imd_c9nf4zp_0",
-    "path": "datasets/raw/imd2020/IMD2020/1d5zdj/c9nf4zp_0.jpg",
-    "type": "forgery_detection",
-    "is_tampered": true
+    "id": "imd_tamp_c9syk85_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dqcce/c9syk85_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dqcce/c9syk85_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00437.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00437.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.08.27",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/000/002/017/5382/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9sbtl1_0",
+    "path": "datasets/raw/imd2020/IMD2020/1doaz6/c9sbtl1_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1doaz6/c9sbtl1_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_4.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/401/553/301/9654/4.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9k4d7o_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cufzj/c9k4d7o_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cufzj/c9k4d7o_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/869/764/626/7823/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
   },
   {
     "id": "exp_img_00023.jpg",
     "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00023.jpg",
     "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
     "ground_truth_date": "2021.04.05",
-    "is_tampered": false
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
   },
   {
-    "id": "imd_c9vhc8k_0",
-    "path": "datasets/raw/imd2020/IMD2020/1dzfup/c9vhc8k_0.jpg",
-    "type": "forgery_detection",
-    "is_tampered": true
+    "id": "imd_tamp_c93idi8_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b4a9x/c93idi8_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b4a9x/c93idi8_0_mask.png",
+    "has_date_annotation": false
   },
   {
-    "id": "imd_c9729qx_0",
-    "path": "datasets/raw/imd2020/IMD2020/1bigvi/c9729qx_0.jpg",
-    "type": "forgery_detection",
-    "is_tampered": true
+    "id": "imd_tamp_c9cnst8_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c322x/c9cnst8_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c322x/c9cnst8_0_mask.png",
+    "has_date_annotation": false
   },
   {
-    "id": "exp_img_00027.jpg",
-    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00027.jpg",
+    "id": "exp_img_00605.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00605.jpg",
     "type": "expdate_verification",
-    "ground_truth_date": "2021.06.02",
-    "is_tampered": false
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.01.06",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
   },
   {
-    "id": "imd_1djzgt_orig",
-    "path": "datasets/raw/imd2020/IMD2020/1djzgt/1djzgt_orig.jpg",
-    "type": "authentic_baseline",
-    "is_tampered": false
-  },
-  {
-    "id": "exp_img_00036.jpg",
-    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00036.jpg",
+    "id": "exp_img_01000.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01000.jpg",
     "type": "expdate_verification",
-    "ground_truth_date": "20-09-2021",
-    "is_tampered": false
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.01.03",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
   },
   {
-    "id": "exp_img_00058.jpg",
-    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00058.jpg",
+    "id": "imd_tamp_c9dcvq8_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c54ga/c9dcvq8_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c54ga/c9dcvq8_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9pgah7_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dc9sm/c9pgah7_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dc9sm/c9pgah7_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9m1ree_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d1dgt/c9m1ree_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d1dgt/c9m1ree_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c95adiz_0",
+    "path": "datasets/raw/imd2020/IMD2020/1batnk/c95adiz_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1batnk/c95adiz_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1bkkyo_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bkkyo/1bkkyo_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00797.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00797.jpg",
     "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.10.29",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c97qv4m_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bl55t/c97qv4m_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bl55t/c97qv4m_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9ub2de_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dvi1f/c9ub2de_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dvi1f/c9ub2de_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_5.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/000/002/026/3300/5.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9befb1_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bx64j/c9befb1_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bx64j/c9befb1_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9islb2_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cp4wl/c9islb2_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cp4wl/c9islb2_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00299.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00299.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "21/11/2022",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9g93re_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cexsx/c9g93re_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cexsx/c9g93re_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/843/701/579/3009/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8vizkp_0",
+    "path": "datasets/raw/imd2020/IMD2020/1aa8xl/c8vizkp_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1aa8xl/c8vizkp_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9abglu_0",
+    "path": "datasets/raw/imd2020/IMD2020/1buvhq/c9abglu_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1buvhq/c9abglu_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_01003.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01003.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.01.21",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00190.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00190.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.06.23",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00101.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00101.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "02.18",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00604.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00604.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "21.03.11",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00816.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00816.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "25/01/2022",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_6.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/359/671/049/4446/6.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00921.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00921.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "20.10.30",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_1bza2v_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bza2v/1bza2v_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8zp10g_0",
+    "path": "datasets/raw/imd2020/IMD2020/1aq0f0/c8zp10g_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1aq0f0/c8zp10g_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00963.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00963.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.09.14",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_1agt1r_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1agt1r/1agt1r_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/560/122/704/5628/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00383.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00383.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "14.JUL.2022",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c92urd0_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b18vd/c92urd0_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b18vd/c92urd0_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/427/000/076/2109/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8z31h1_0",
+    "path": "datasets/raw/imd2020/IMD2020/1anq2a/c8z31h1_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1anq2a/c8z31h1_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c92s1zk_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b1pdg/c92s1zk_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b1pdg/c92s1zk_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9bmw1x_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bzno4/c9bmw1x_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bzno4/c9bmw1x_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9pgddf_0",
+    "path": "datasets/raw/imd2020/IMD2020/1de0l0/c9pgddf_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1de0l0/c9pgddf_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00348.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00348.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "21-08-2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9hk5hp_0",
+    "path": "datasets/raw/imd2020/IMD2020/1ckwje/c9hk5hp_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1ckwje/c9hk5hp_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00696.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00696.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "04/OCT/2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9chqo0_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c2ojm/c9chqo0_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c2ojm/c9chqo0_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/761/008/936/4769/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_6.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/692/090/780/0654/6.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1azovt_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1azovt/1azovt_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8wte77_0",
+    "path": "datasets/raw/imd2020/IMD2020/1aeur2/c8wte77_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1aeur2/c8wte77_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1ah0n7_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1ah0n7/1ah0n7_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00876.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00876.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.03.17",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_00050_orig",
+    "path": "datasets/raw/imd2020/IMD2020/z23/00050_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9gd2mj_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cglge/c9gd2mj_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cglge/c9gd2mj_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/841/040/691/7505/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9jppfm_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cssa3/c9jppfm_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cssa3/c9jppfm_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1d860v_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d860v/1d860v_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9876y4_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bluhu/c9876y4_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bluhu/c9876y4_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9nxj2d_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d7uhv/c9nxj2d_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d7uhv/c9nxj2d_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1amtqf_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1amtqf/1amtqf_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9ws5r0_0",
+    "path": "datasets/raw/imd2020/IMD2020/1e4fj8/c9ws5r0_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1e4fj8/c9ws5r0_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/761/335/632/6774/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/761/041/100/4677/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c95occz_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bbuj9/c95occz_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bbuj9/c95occz_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c929r39_0",
+    "path": "datasets/raw/imd2020/IMD2020/1azru8/c929r39_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1azru8/c929r39_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00002.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00002.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
     "ground_truth_date": "2021/10/28",
-    "is_tampered": false
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
   },
   {
-    "id": "exp_img_00063.jpg",
-    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00063.jpg",
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/842/588/700/2152/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c94f69a_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b78na/c94f69a_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b78na/c94f69a_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c970ssc_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bircs/c970ssc_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bircs/c970ssc_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9ocul2_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d9tn1/c9ocul2_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d9tn1/c9ocul2_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c97n72x_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bl2e5/c97n72x_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bl2e5/c97n72x_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c92hrf9_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b0kjn/c92hrf9_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b0kjn/c92hrf9_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/729/011/219/5128/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/008/086/800/2828/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9n96qs_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d63ep/c9n96qs_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d63ep/c9n96qs_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1d9puw_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d9puw/1d9puw_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9hi7nj_0",
+    "path": "datasets/raw/imd2020/IMD2020/1ckxsa/c9hi7nj_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1ckxsa/c9hi7nj_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9g9mr9_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cgew4/c9g9mr9_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cgew4/c9g9mr9_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9mjv8c_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d3556/c9mjv8c_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d3556/c9mjv8c_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00786.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00786.jpg",
     "type": "expdate_verification",
-    "ground_truth_date": "2021 09 14",
-    "is_tampered": false
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "14.01.21",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
   },
   {
-    "id": "exp_img_00071.jpg",
-    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00071.jpg",
+    "id": "exp_img_00522.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00522.jpg",
     "type": "expdate_verification",
-    "ground_truth_date": "11 12 21",
-    "is_tampered": false
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "21.02.01",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
   },
   {
-    "id": "imd_c949n9f_0",
-    "path": "datasets/raw/imd2020/IMD2020/1b68xn/c949n9f_0.jpg",
-    "type": "forgery_detection",
-    "is_tampered": true
+    "id": "imd_tamp_c8zjhlp_0",
+    "path": "datasets/raw/imd2020/IMD2020/1aohro/c8zjhlp_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1aohro/c8zjhlp_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1cu6rq_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1cu6rq/1cu6rq_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c956q0k_0",
+    "path": "datasets/raw/imd2020/IMD2020/1batnk/c956q0k_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1batnk/c956q0k_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9dcyjm_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c54ga/c9dcyjm_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c54ga/c9dcyjm_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1d9ly5_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d9ly5/1d9ly5_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9riv1o_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dln2g/c9riv1o_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dln2g/c9riv1o_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/902/020/003/2473/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9uti5t_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dxi3r/c9uti5t_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dxi3r/c9uti5t_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1bqaw1_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bqaw1/1bqaw1_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9odpwo_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d9tn1/c9odpwo_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d9tn1/c9odpwo_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/400/316/413/2613/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c952fpe_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b9voq/c952fpe_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b9voq/c952fpe_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00511.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00511.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.10.28",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/629/110/728/2169/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_15.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/848/001/707/5314/15.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1aut4s_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1aut4s/1aut4s_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9rci56_0",
+    "path": "datasets/raw/imd2020/IMD2020/1djqwm/c9rci56_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1djqwm/c9rci56_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_7.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/433/725/607/5862/7.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/376/006/149/3018/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c92vzrm_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b1pdg/c92vzrm_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b1pdg/c92vzrm_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00287.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00287.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "11/OCT/2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9td4wy_0",
+    "path": "datasets/raw/imd2020/IMD2020/1ds4ao/c9td4wy_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1ds4ao/c9td4wy_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9drap5_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c6t1h/c9drap5_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c6t1h/c9drap5_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00808.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00808.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "02 12 2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9r8my1_0",
+    "path": "datasets/raw/imd2020/IMD2020/1djp9t/c9r8my1_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1djp9t/c9r8my1_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9cnkxl_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c2ojm/c9cnkxl_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c2ojm/c9cnkxl_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1dfo3j_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1dfo3j/1dfo3j_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9skrua_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dpeca/c9skrua_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dpeca/c9skrua_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1b4a9x_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1b4a9x/1b4a9x_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9wf4dc_0",
+    "path": "datasets/raw/imd2020/IMD2020/1e2gla/c9wf4dc_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1e2gla/c9wf4dc_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8u4gpd_0",
+    "path": "datasets/raw/imd2020/IMD2020/1a4dqp/c8u4gpd_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1a4dqp/c8u4gpd_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/360/858/090/3550/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9ltxrr_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d05a0/c9ltxrr_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d05a0/c9ltxrr_0_mask.png",
+    "has_date_annotation": false
   },
   {
     "id": "exp_img_00007.jpg",
     "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00007.jpg",
     "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
     "ground_truth_date": "04/03/2023",
-    "is_tampered": false
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
   },
   {
-    "id": "exp_img_00029.jpg",
-    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00029.jpg",
+    "id": "imd_auth_1cxff2_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1cxff2/1cxff2_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9969lr_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bqic5/c9969lr_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bqic5/c9969lr_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00182.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00182.jpg",
     "type": "expdate_verification",
-    "ground_truth_date": "01/12/21",
-    "is_tampered": false
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2023.11.15",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
   },
   {
-    "id": "imd_c9uudgq_0",
-    "path": "datasets/raw/imd2020/IMD2020/1dxi3r/c9uudgq_0.jpg",
-    "type": "forgery_detection",
-    "is_tampered": true
+    "id": "exp_img_01044.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01044.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "21.10.22",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00779.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00779.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "08/2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c97p9cf_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bl55t/c97p9cf_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bl55t/c97p9cf_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_8.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/400/640/202/7139/8.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9kspnj_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cx0wu/c9kspnj_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cx0wu/c9kspnj_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00474.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00474.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.01.21",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c8xgdhj_0",
+    "path": "datasets/raw/imd2020/IMD2020/1ah0n7/c8xgdhj_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1ah0n7/c8xgdhj_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9nvi4n_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d7uhv/c9nvi4n_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d7uhv/c9nvi4n_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9kw0f4_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cxff2/c9kw0f4_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cxff2/c9kw0f4_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9bhen2_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bz432/c9bhen2_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bz432/c9bhen2_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9wwhov_0",
+    "path": "datasets/raw/imd2020/IMD2020/1e4fj8/c9wwhov_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1e4fj8/c9wwhov_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c94o928_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b8r7b/c94o928_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b8r7b/c94o928_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9o54v5_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d8gti/c9o54v5_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d8gti/c9o54v5_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c94b087_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b6yyc/c94b087_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b6yyc/c94b087_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8yipuf_0",
+    "path": "datasets/raw/imd2020/IMD2020/1al8oy/c8yipuf_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1al8oy/c8yipuf_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00445.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00445.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "19 07 2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00157.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00157.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "21.10.13",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/871/898/902/6103/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_00015_orig",
+    "path": "datasets/raw/imd2020/IMD2020/z7/00015_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00732.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00732.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.03.17",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_01070.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01070.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.03.18",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/000/001/261/0217/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_9.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/410/406/001/1030/9.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00114.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00114.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2023.12.27",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/506/033/803/3328/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c94ddtu_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b68xn/c94ddtu_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b68xn/c94ddtu_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1doipu_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1doipu/1doipu_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/085/001/086/7045/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9cgxt5_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c2gbq/c9cgxt5_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c2gbq/c9cgxt5_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9dd24r_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c54ga/c9dd24r_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c54ga/c9dd24r_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c995ny6_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bqaw1/c995ny6_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bqaw1/c995ny6_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9kloca_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cw5cy/c9kloca_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cw5cy/c9kloca_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9a00lf_0",
+    "path": "datasets/raw/imd2020/IMD2020/1btpfr/c9a00lf_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1btpfr/c9a00lf_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_4.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/318/434/006/5015/4.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9s8qkh_0",
+    "path": "datasets/raw/imd2020/IMD2020/1do47w/c9s8qkh_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1do47w/c9s8qkh_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00285.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00285.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "JUN 2022",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_5.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/868/129/930/0228/5.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c96ese6_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bek0p/c96ese6_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bek0p/c96ese6_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c949n9f_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b68xn/c949n9f_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b68xn/c949n9f_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9vbuxe_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dz63z/c9vbuxe_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dz63z/c9vbuxe_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00792.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00792.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "21.12.16",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9hj5lr_0",
+    "path": "datasets/raw/imd2020/IMD2020/1ckwje/c9hj5lr_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1ckwje/c9hj5lr_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00097.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00097.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "20/07/21",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/264/287/607/0848/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00933.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00933.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2018.12.04",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/803/352/054/1618/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1dxfa0_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1dxfa0/1dxfa0_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/502/104/700/0131/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9l3keq_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cxupi/c9l3keq_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cxupi/c9l3keq_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9kj3pe_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cuksu/c9kj3pe_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cuksu/c9kj3pe_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/061/936/000/6135/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_6.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/376/014/999/5304/6.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/336/895/699/9630/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00818.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00818.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.02.22",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00912.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00912.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.01.03",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c90d9fr_0",
+    "path": "datasets/raw/imd2020/IMD2020/1as3ai/c90d9fr_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1as3ai/c90d9fr_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/281/245/900/3222/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00159.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00159.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.06.17",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/490/366/569/7171/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c979ed6_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bj1te/c979ed6_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bj1te/c979ed6_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00443.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00443.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "01.31",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9czl4x_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c4ksv/c9czl4x_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c4ksv/c9czl4x_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9wp96y_0",
+    "path": "datasets/raw/imd2020/IMD2020/1e4fj8/c9wp96y_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1e4fj8/c9wp96y_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00653.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00653.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "12.20",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_01093.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01093.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.01.18",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_01017.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01017.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "15.11.2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_5.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/358/551/002/7572/5.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9clhtf_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c2ojm/c9clhtf_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c2ojm/c9clhtf_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/250/000/000/1697/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/871/060/504/4010/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_19.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/800/005/000/9505/19.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9aysiu_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bx64j/c9aysiu_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bx64j/c9aysiu_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_10.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/325/622/542/7864/10.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9hgxau_0",
+    "path": "datasets/raw/imd2020/IMD2020/1ckdxo/c9hgxau_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1ckdxo/c9hgxau_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1d8099_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d8099/1d8099_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/329/302/220/1594/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9coljf_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c2ojm/c9coljf_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c2ojm/c9coljf_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00735.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00735.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "29.04.2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00102.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00102.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "02.19",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9ax2ln_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bx64j/c9ax2ln_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bx64j/c9ax2ln_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/000/002/079/7324/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00726.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00726.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "09/09/2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9g3rke_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cfo9x/c9g3rke_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cfo9x/c9g3rke_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9gw35r_0",
+    "path": "datasets/raw/imd2020/IMD2020/1chs2a/c9gw35r_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1chs2a/c9gw35r_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00666.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00666.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.10.20",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/868/182/330/3077/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00970.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00970.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.02.22",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/325/039/187/8178/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_5.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/542/500/240/1948/5.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00634.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00634.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.03.24",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_1cgvx4_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1cgvx4/1cgvx4_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9qh57b_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dh4tu/c9qh57b_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dh4tu/c9qh57b_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1dnhng_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1dnhng/1dnhng_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/000/000/181/1205/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/000/002/042/2684/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9fmaeu_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cdqz3/c9fmaeu_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cdqz3/c9fmaeu_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8wars7_0",
+    "path": "datasets/raw/imd2020/IMD2020/1aczjh/c8wars7_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1aczjh/c8wars7_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1cyazy_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1cyazy/1cyazy_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00422.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00422.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.06.28",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9u54ff_0",
+    "path": "datasets/raw/imd2020/IMD2020/1duygu/c9u54ff_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1duygu/c9u54ff_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/541/009/315/6501/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1d6v4y_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d6v4y/1d6v4y_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00861.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00861.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2020.05.28",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9qf8d5_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dh9dg/c9qf8d5_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dh9dg/c9qf8d5_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/400/053/960/5741/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00164.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00164.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2023.01.15",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/401/282/440/2645/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1aq6ym_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1aq6ym/1aq6ym_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_6.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/359/671/053/5118/6.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_4.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/400/604/000/0099/4.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9dwil8_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c6t1h/c9dwil8_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c6t1h/c9dwil8_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9uvkos_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dxi3r/c9uvkos_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dxi3r/c9uvkos_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00172.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00172.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.01.18",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00523.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00523.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.02.15",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9juyz1_0",
+    "path": "datasets/raw/imd2020/IMD2020/1ctk0g/c9juyz1_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1ctk0g/c9juyz1_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00607.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00607.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.05.13",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9xfdz5_0",
+    "path": "datasets/raw/imd2020/IMD2020/1e6tmo/c9xfdz5_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1e6tmo/c9xfdz5_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9sut3r_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dqd7u/c9sut3r_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dqd7u/c9sut3r_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9fxe3f_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cek5i/c9fxe3f_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cek5i/c9fxe3f_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/842/224/183/4046/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00148.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00148.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.11.02",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_1dxsir_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1dxsir/1dxsir_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00611.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00611.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.01.21",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/802/449/300/0516/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9l6nsf_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cy4bb/c9l6nsf_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cy4bb/c9l6nsf_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_4.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/000/002/464/2491/4.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/599/775/413/8897/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00309.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00309.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "13.10.2020",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/311/907/003/1238/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00040.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00040.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.06.06",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9fj64j_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cdqz3/c9fj64j_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cdqz3/c9fj64j_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/800/297/403/2522/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_00104_orig",
+    "path": "datasets/raw/imd2020/IMD2020/z39/00104_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9xo089_0",
+    "path": "datasets/raw/imd2020/IMD2020/1e6tmo/c9xo089_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1e6tmo/c9xo089_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9gdsx5_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cglge/c9gdsx5_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cglge/c9gdsx5_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9eki1d_0",
+    "path": "datasets/raw/imd2020/IMD2020/1ca8nm/c9eki1d_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1ca8nm/c9eki1d_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00662.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00662.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "05.03.2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_01073.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01073.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2023/11/11",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9r6ey7_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dkb0u/c9r6ey7_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dkb0u/c9r6ey7_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00536.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00536.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2020.12.16",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9g2fgf_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cfau1/c9g2fgf_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cfau1/c9g2fgf_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8xd6bv_0",
+    "path": "datasets/raw/imd2020/IMD2020/1agrmz/c8xd6bv_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1agrmz/c8xd6bv_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00015.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00015.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.07.01",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00181.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00181.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.01.12",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/404/535/700/9494/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_13.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/355/110/075/2117/13.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_00064_fake",
+    "path": "datasets/raw/imd2020/IMD2020/z27/00064_fake.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/z27/00064_fake_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8zepg5_0",
+    "path": "datasets/raw/imd2020/IMD2020/1anq2a/c8zepg5_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1anq2a/c8zepg5_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00379.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00379.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "17/07/2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00209.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00209.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2020.12.14",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/800/130/022/3085/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/006/889/240/0209/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/001/708/288/5470/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_01029.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01029.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2020.10.21",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c90dujh_0",
+    "path": "datasets/raw/imd2020/IMD2020/1asnfa/c90dujh_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1asnfa/c90dujh_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1chfs0_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1chfs0/1chfs0_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_01082.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01082.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.10.20",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/843/187/627/7395/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8z82ta_0",
+    "path": "datasets/raw/imd2020/IMD2020/1anq2a/c8z82ta_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1anq2a/c8z82ta_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c93mz9d_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b4a9x/c93mz9d_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b4a9x/c93mz9d_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00834.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00834.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.12.03",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9b3g8m_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bx6fj/c9b3g8m_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bx6fj/c9b3g8m_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8w0a7n_0",
+    "path": "datasets/raw/imd2020/IMD2020/1ac1g7/c8w0a7n_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1ac1g7/c8w0a7n_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00863.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00863.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2020.10.21",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_1e8iwm_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1e8iwm/1e8iwm_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9pgi5r_0",
+    "path": "datasets/raw/imd2020/IMD2020/1de0l0/c9pgi5r_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1de0l0/c9pgi5r_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9ec1il_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c9e7e/c9ec1il_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c9e7e/c9ec1il_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00637.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00637.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "21.12.22",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9xfzri_0",
+    "path": "datasets/raw/imd2020/IMD2020/1e6tmo/c9xfzri_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1e6tmo/c9xfzri_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9pur9b_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dfo3j/c9pur9b_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dfo3j/c9pur9b_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00439.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00439.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.01.04",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/203/000/000/0395/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00473.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00473.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2023.07.14",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/200/530/007/0683/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00551.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00551.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.09.26",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/000/001/074/4329/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/506/034/394/0277/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00425.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00425.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.01.20",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c92s0oq_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b1pdg/c92s0oq_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b1pdg/c92s0oq_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_5.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/325/622/547/1805/5.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c95gz0y_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bax4h/c95gz0y_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bax4h/c95gz0y_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8zefoe_0",
+    "path": "datasets/raw/imd2020/IMD2020/1aohro/c8zefoe_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1aohro/c8zefoe_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_6.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/336/329/844/3193/6.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8x2s20_0",
+    "path": "datasets/raw/imd2020/IMD2020/1afvdd/c8x2s20_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1afvdd/c8x2s20_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00033.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00033.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "31-08-2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/541/225/474/1199/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9qs50l_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dit8o/c9qs50l_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dit8o/c9qs50l_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9sydmi_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dqtd8/c9sydmi_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dqtd8/c9sydmi_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8vpmfd_0",
+    "path": "datasets/raw/imd2020/IMD2020/1aa8xl/c8vpmfd_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1aa8xl/c8vpmfd_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9nds5g_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d5zdj/c9nds5g_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d5zdj/c9nds5g_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9czi34_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c4ksv/c9czi34_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c4ksv/c9czi34_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c99wyrv_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bsw3w/c99wyrv_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bsw3w/c99wyrv_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_5.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/842/703/000/5324/5.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9ogiu1_0",
+    "path": "datasets/raw/imd2020/IMD2020/1da0ta/c9ogiu1_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1da0ta/c9ogiu1_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00647.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00647.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2020.09.01",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9atngk_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bws7y/c9atngk_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bws7y/c9atngk_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9g1oc0_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cek5i/c9g1oc0_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cek5i/c9g1oc0_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_01001.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01001.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2023.02.26",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_10.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/000/004/035/6709/10.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00282.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00282.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.03.25",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/000/002/901/2374/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1c4q11_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1c4q11/1c4q11_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_5.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/359/671/033/8955/5.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/327/322/112/1206/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_01087.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01087.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.11.01",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9glbxq_0",
+    "path": "datasets/raw/imd2020/IMD2020/1chfs0/c9glbxq_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1chfs0/c9glbxq_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00874.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00874.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.11.17",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9w5t18_0",
+    "path": "datasets/raw/imd2020/IMD2020/1e2gla/c9w5t18_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1e2gla/c9w5t18_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00301.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00301.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "01 10 23",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00410.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00410.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.08.29",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_1c7xcf_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1c7xcf/1c7xcf_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9r4vts_0",
+    "path": "datasets/raw/imd2020/IMD2020/1djqwm/c9r4vts_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1djqwm/c9r4vts_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c92atfy_0",
+    "path": "datasets/raw/imd2020/IMD2020/1az3z4/c92atfy_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1az3z4/c92atfy_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00039.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00039.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.07.21",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00298.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00298.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022/04/23",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/350/378/000/2204/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_00079_fake",
+    "path": "datasets/raw/imd2020/IMD2020/z31/00079_fake.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/z31/00079_fake_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/325/856/146/3056/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/885/364/701/2019/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c99msoi_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bsc5v/c99msoi_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bsc5v/c99msoi_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c958erg_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bax4h/c958erg_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bax4h/c958erg_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8wsol6_0",
+    "path": "datasets/raw/imd2020/IMD2020/1aeqsl/c8wsol6_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1aeqsl/c8wsol6_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9r55jp_0",
+    "path": "datasets/raw/imd2020/IMD2020/1djp9t/c9r55jp_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1djp9t/c9r55jp_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00537.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00537.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.07.19",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9hud83_0",
+    "path": "datasets/raw/imd2020/IMD2020/1clwgb/c9hud83_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1clwgb/c9hud83_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_01088.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01088.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.12.25",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00978.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00978.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.07.22",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c91681h_0",
+    "path": "datasets/raw/imd2020/IMD2020/1aut4s/c91681h_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1aut4s/c91681h_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9cqrf4_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c2uxu/c9cqrf4_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c2uxu/c9cqrf4_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9i8kwz_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cnlum/c9i8kwz_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cnlum/c9i8kwz_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00837.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00837.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.12.10",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_01069.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01069.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.08.04",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/539/150/043/3050/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_11.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/002/840/071/2996/11.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9nt2o8_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d7oxn/c9nt2o8_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d7oxn/c9nt2o8_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9hxepw_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cme9d/c9hxepw_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cme9d/c9hxepw_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8vm7al_0",
+    "path": "datasets/raw/imd2020/IMD2020/1a9tss/c8vm7al_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1a9tss/c8vm7al_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1cst9h_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1cst9h/1cst9h_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9mvlue_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d3556/c9mvlue_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d3556/c9mvlue_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00336.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00336.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.06.26",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9q9vd2_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dh4tu/c9q9vd2_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dh4tu/c9q9vd2_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00163.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00163.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "05/08/2023",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_d6mhe_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d6mhe/d6mhe_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9418yh_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b61h7/c9418yh_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b61h7/c9418yh_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_01009.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01009.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.07.03",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c97ub08_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bl2e5/c97ub08_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bl2e5/c97ub08_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/260/012/104/8547/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_5.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/501/717/494/3458/5.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00492.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00492.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "02.19",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9ryjzh_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dn6vh/c9ryjzh_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dn6vh/c9ryjzh_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00964.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00964.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2023 03 03",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_5.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/406/145/802/2354/5.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c94ygpb_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b9l65/c94ygpb_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b9l65/c94ygpb_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00279.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00279.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022/05/16",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_1al8oy_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1al8oy/1al8oy_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00281.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00281.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "30/08/2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00762.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00762.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "27.05.2022",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/843/658/395/9077/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00329.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00329.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "31 10 2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c990uno_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bqaw1/c990uno_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bqaw1/c990uno_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/761/303/621/8122/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00233.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00233.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.10.08",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00645.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00645.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "05 04 2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9h3qse_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cj2wk/c9h3qse_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cj2wk/c9h3qse_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/843/187/626/0328/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_5.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/376/025/329/0142/5.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/899/999/919/3522/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1cbs6k_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1cbs6k/1cbs6k_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8vnyrx_0",
+    "path": "datasets/raw/imd2020/IMD2020/1a9tss/c8vnyrx_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1a9tss/c8vnyrx_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00206.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00206.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "28 JUN 21",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00469.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00469.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.12.07",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9qjgce_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dhtj0/c9qjgce_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dhtj0/c9qjgce_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00500.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00500.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "22.01.17",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00480.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00480.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.07.11",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c949wvr_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b6yyc/c949wvr_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b6yyc/c949wvr_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c99grkg_0",
+    "path": "datasets/raw/imd2020/IMD2020/1brscw/c99grkg_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1brscw/c99grkg_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1c7ljf_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1c7ljf/1c7ljf_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9uv7su_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dxi3r/c9uv7su_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dxi3r/c9uv7su_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/426/033/981/5508/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_10.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/085/067/700/0021/10.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1bfbnf_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bfbnf/1bfbnf_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/006/148/306/3890/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9wa696_0",
+    "path": "datasets/raw/imd2020/IMD2020/1e2ic4/c9wa696_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1e2ic4/c9wa696_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c92gt3h_0",
+    "path": "datasets/raw/imd2020/IMD2020/1azhe4/c92gt3h_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1azhe4/c92gt3h_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00018.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00018.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.06.08",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c98trtt_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bojj1/c98trtt_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bojj1/c98trtt_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c94cmpk_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b68xn/c94cmpk_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b68xn/c94cmpk_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00481.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00481.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.12.14",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9h3b9x_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cj6ta/c9h3b9x_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cj6ta/c9h3b9x_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c90eken_0",
+    "path": "datasets/raw/imd2020/IMD2020/1as9ik/c90eken_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1as9ik/c90eken_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/761/081/834/0323/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/841/201/637/0435/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/763/003/968/6857/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9nuy5u_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d8099/c9nuy5u_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d8099/c9nuy5u_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_00089_fake",
+    "path": "datasets/raw/imd2020/IMD2020/z34/00089_fake.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/z34/00089_fake_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00765.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00765.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "10 AUG 2022",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00121.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00121.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2020.09.08",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00415.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00415.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.07.12",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00803.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00803.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.07.27",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/000/002/214/4140/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00618.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00618.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.11.01",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c93f747_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b40l4/c93f747_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b40l4/c93f747_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/378/720/055/9718/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/405/870/073/4301/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9j8ny0_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cqg67/c9j8ny0_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cqg67/c9j8ny0_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_4.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/729/011/567/8550/4.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9lvfdp_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d0g26/c9lvfdp_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d0g26/c9lvfdp_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/860/610/646/8588/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_00065_orig",
+    "path": "datasets/raw/imd2020/IMD2020/z28/00065_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_00021_fake",
+    "path": "datasets/raw/imd2020/IMD2020/z10/00021_fake.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/z10/00021_fake_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c97g287_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bjy9b/c97g287_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bjy9b/c97g287_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00896.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00896.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.12.08",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9fprtk_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cdwa7/c9fprtk_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cdwa7/c9fprtk_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9pmle5_0",
+    "path": "datasets/raw/imd2020/IMD2020/1de6me/c9pmle5_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1de6me/c9pmle5_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00497.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00497.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2020.11.25",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00807.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00807.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022/01/14",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00444.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00444.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "FEB/06/21",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_4.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/702/511/020/7265/4.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/505/478/149/7530/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/244/272/003/4909/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1bqic5_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bqic5/1bqic5_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/406/145/813/4996/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00795.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00795.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.11.23",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00773.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00773.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "15-06-2022",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_00065_fake",
+    "path": "datasets/raw/imd2020/IMD2020/z28/00065_fake.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/z28/00065_fake_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/764/017/791/1193/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/590/276/849/9018/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9rsftz_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dm1ic/c9rsftz_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dm1ic/c9rsftz_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_5.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/590/053/502/4623/5.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_01084.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01084.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2023.01.12",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c90g14e_0",
+    "path": "datasets/raw/imd2020/IMD2020/1as9ik/c90g14e_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1as9ik/c90g14e_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_17.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/841/057/302/3214/17.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8zf0hg_0",
+    "path": "datasets/raw/imd2020/IMD2020/1anhg4/c8zf0hg_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1anhg4/c8zf0hg_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c91pkp5_0",
+    "path": "datasets/raw/imd2020/IMD2020/1ax6zq/c91pkp5_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1ax6zq/c91pkp5_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00581.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00581.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.10.22",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9hnxex_0",
+    "path": "datasets/raw/imd2020/IMD2020/1ckwje/c9hnxex_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1ckwje/c9hnxex_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00258.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00258.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "21.01.12",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00553.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00553.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2023.01.24",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9266q1_0",
+    "path": "datasets/raw/imd2020/IMD2020/1az3z4/c9266q1_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1az3z4/c9266q1_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00483.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00483.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "22.01.18",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00582.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00582.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "14/11/2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00059.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00059.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021/10/28",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9gd6qy_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cglge/c9gd6qy_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cglge/c9gd6qy_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c91z2wh_0",
+    "path": "datasets/raw/imd2020/IMD2020/1ayilh/c91z2wh_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1ayilh/c91z2wh_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00173.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00173.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.01.14",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_1dhs34_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1dhs34/1dhs34_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00525.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00525.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "21.02.11",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_1bq750_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bq750/1bq750_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c99utti_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bt7f3/c99utti_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bt7f3/c99utti_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00992.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00992.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "SEP 2022",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/695/036/104/1485/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/000/008/581/0891/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1d8yzu_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d8yzu/1d8yzu_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8zymv9_0",
+    "path": "datasets/raw/imd2020/IMD2020/1aq6ym/c8zymv9_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1aq6ym/c8zymv9_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9r6z10_0",
+    "path": "datasets/raw/imd2020/IMD2020/1djqwm/c9r6z10_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1djqwm/c9r6z10_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9dl0if_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c54ga/c9dl0if_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c54ga/c9dl0if_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1df1ik_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1df1ik/1df1ik_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/085/316/900/8826/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1e2ic4_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1e2ic4/1e2ic4_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9471hz_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b68xn/c9471hz_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b68xn/c9471hz_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_9.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/356/470/000/9918/9.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_01052.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01052.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "01-10-2020",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_01031.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01031.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.10.14",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00567.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00567.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.10.05",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/042/570/990/3627/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00702.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00702.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2023.07.06",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_6.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/328/207/001/5284/6.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9fo87w_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cdvuj/c9fo87w_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cdvuj/c9fo87w_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00475.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00475.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.06.25",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9f0la4_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cbs6k/c9f0la4_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cbs6k/c9f0la4_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9egvex_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c9wcj/c9egvex_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c9wcj/c9egvex_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c94odrd_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b8r7b/c94odrd_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b8r7b/c94odrd_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00917.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00917.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "DEC.25.2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00160.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00160.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.07.09",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/848/000/060/0158/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9v5ckc_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dyeps/c9v5ckc_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dyeps/c9v5ckc_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00005.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00005.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "23.07.2022",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_00022_orig",
+    "path": "datasets/raw/imd2020/IMD2020/z5/00022_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9nau5v_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d63ep/c9nau5v_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d63ep/c9nau5v_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_4.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/067/729/499/1132/4.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9va3n9_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dz63z/c9va3n9_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dz63z/c9va3n9_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/230/283/400/5281/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8yjv4u_0",
+    "path": "datasets/raw/imd2020/IMD2020/1al8oy/c8yjv4u_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1al8oy/c8yjv4u_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00872.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00872.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.11.09",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/405/648/936/0346/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9qbapf_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dh9dg/c9qbapf_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dh9dg/c9qbapf_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/800/714/151/8472/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9lqv8m_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d0csx/c9lqv8m_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d0csx/c9lqv8m_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00027.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00027.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.06.02",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/805/141/122/4518/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c912yu8_0",
+    "path": "datasets/raw/imd2020/IMD2020/1aut4s/c912yu8_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1aut4s/c912yu8_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/007/124/001/2382/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8u0rrz_0",
+    "path": "datasets/raw/imd2020/IMD2020/1a3oag/c8u0rrz_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1a3oag/c8u0rrz_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00914.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00914.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.11.09",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_1bafx4_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bafx4/1bafx4_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9h41sp_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cj2wk/c9h41sp_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cj2wk/c9h41sp_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00939.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00939.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2020.10.20",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00095.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00095.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "DEC-28-2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_1cpsql_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1cpsql/1cpsql_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_4.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/506/077/654/0051/4.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9jzdxb_0",
+    "path": "datasets/raw/imd2020/IMD2020/1csvlp/c9jzdxb_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1csvlp/c9jzdxb_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9sh0l8_0",
+    "path": "datasets/raw/imd2020/IMD2020/1doaz6/c9sh0l8_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1doaz6/c9sh0l8_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00521.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00521.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "21.01.22",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_5.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/085/366/500/5091/5.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c979ib3_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bigvi/c979ib3_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bigvi/c979ib3_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9u5f90_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dv6ms/c9u5f90_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dv6ms/c9u5f90_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00899.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00899.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.11.04",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00386.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00386.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.11.01",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00745.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00745.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.09.14",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/871/826/581/1591/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/254/462/404/4623/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1aws4w_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1aws4w/1aws4w_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9omlsl_0",
+    "path": "datasets/raw/imd2020/IMD2020/1da0ta/c9omlsl_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1da0ta/c9omlsl_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c94nvm9_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b8r7b/c94nvm9_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b8r7b/c94nvm9_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8zuhhz_0",
+    "path": "datasets/raw/imd2020/IMD2020/1aq6ym/c8zuhhz_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1aq6ym/c8zuhhz_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/040/044/033/1106/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1d0csx_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d0csx/1d0csx_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9p7smn_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dc9sm/c9p7smn_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dc9sm/c9p7smn_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/344/126/000/1487/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c91lxbv_0",
+    "path": "datasets/raw/imd2020/IMD2020/1awq0s/c91lxbv_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1awq0s/c91lxbv_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9bp70d_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bzitw/c9bp70d_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bzitw/c9bp70d_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/940/107/335/4051/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9bt9ta_0",
+    "path": "datasets/raw/imd2020/IMD2020/1c055r/c9bt9ta_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1c055r/c9bt9ta_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/800/551/802/0306/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9pxyb3_0",
+    "path": "datasets/raw/imd2020/IMD2020/1df1ik/c9pxyb3_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1df1ik/c9pxyb3_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c93czl5_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b3t1x/c93czl5_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b3t1x/c93czl5_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9mib1x_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d3556/c9mib1x_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d3556/c9mib1x_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00543.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00543.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2022.10.21",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9h0z4q_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cj2wk/c9h0z4q_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cj2wk/c9h0z4q_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9h0993_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cj6ta/c9h0993_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cj6ta/c9h0993_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9u90oo_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dvi1f/c9u90oo_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dvi1f/c9u90oo_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00263.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00263.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "01.28",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c92cabj_0",
+    "path": "datasets/raw/imd2020/IMD2020/1az3z4/c92cabj_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1az3z4/c92cabj_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00459.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00459.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.11.11",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_1brd95_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1brd95/1brd95_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c91wof4_0",
+    "path": "datasets/raw/imd2020/IMD2020/1ay6i0/c91wof4_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1ay6i0/c91wof4_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9ll4vo_0",
+    "path": "datasets/raw/imd2020/IMD2020/1czwh6/c9ll4vo_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1czwh6/c9ll4vo_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c98x46e_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bojj1/c98x46e_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bojj1/c98x46e_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/520/563/700/7070/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9o979d_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d9ly5/c9o979d_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d9ly5/c9o979d_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c90q79y_0",
+    "path": "datasets/raw/imd2020/IMD2020/1atm1o/c90q79y_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1atm1o/c90q79y_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c908yxz_0",
+    "path": "datasets/raw/imd2020/IMD2020/1as2hj/c908yxz_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1as2hj/c908yxz_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00585.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00585.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "22 JUN 2021",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9h5ga4_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cj2wk/c9h5ga4_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cj2wk/c9h5ga4_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9mjrvb_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d3556/c9mjrvb_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d3556/c9mjrvb_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c993qje_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bqic5/c993qje_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bqic5/c993qje_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9epo48_0",
+    "path": "datasets/raw/imd2020/IMD2020/1ca8nm/c9epo48_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1ca8nm/c9epo48_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9ane75_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bvscz/c9ane75_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bvscz/c9ane75_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c94vd78_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b8r7b/c94vd78_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b8r7b/c94vd78_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/805/997/342/1086/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9msbgg_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d4apg/c9msbgg_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d4apg/c9msbgg_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9m5ndi_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d1888/c9m5ndi_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d1888/c9m5ndi_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00828.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00828.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2019.11.18",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9jpn76_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cssa3/c9jpn76_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cssa3/c9jpn76_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00654.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00654.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.01.16",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c93yxq8_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b61h7/c93yxq8_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b61h7/c93yxq8_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1bsc5v_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1bsc5v/1bsc5v_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00376.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00376.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "21-10-31",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00570.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00570.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.12.28",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9mdh2i_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d1dgt/c9mdh2i_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d1dgt/c9mdh2i_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c94p9wa_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b8r7b/c94p9wa_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b8r7b/c94p9wa_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9t6w7g_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dqwyl/c9t6w7g_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dqwyl/c9t6w7g_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00646.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00646.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "21.04.09",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c98mhwt_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bojj1/c98mhwt_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bojj1/c98mhwt_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_01023.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_01023.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2020.10.29",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/376/022/178/0026/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00356.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00356.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "02.09.21",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c91h8oi_0",
+    "path": "datasets/raw/imd2020/IMD2020/1awq0s/c91h8oi_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1awq0s/c91h8oi_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c93hwyp_0",
+    "path": "datasets/raw/imd2020/IMD2020/1b4a9x/c93hwyp_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1b4a9x/c93hwyp_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c8w0y2v_0",
+    "path": "datasets/raw/imd2020/IMD2020/1ac1g7/c8w0y2v_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1ac1g7/c8w0y2v_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00793.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00793.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2023.01.04",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_1d1888_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d1888/1d1888_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00760.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00760.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "14.03.21",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00838.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00838.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "31 JUL 21",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_auth_00056_orig",
+    "path": "datasets/raw/imd2020/IMD2020/z24/00056_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1a84zh_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1a84zh/1a84zh_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9biybz_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bza2v/c9biybz_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bza2v/c9biybz_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1d4apg_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1d4apg/1d4apg_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c957x7p_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bafx4/c957x7p_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bafx4/c957x7p_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_1.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/085/004/943/7547/1.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c972p3n_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bigvi/c972p3n_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bigvi/c972p3n_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00054.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00054.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "21.01.25",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c9mtwu3_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d4apg/c9mtwu3_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d4apg/c9mtwu3_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_3.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/400/053/978/6105/3.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9gdyzr_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cglge/c9gdyzr_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cglge/c9gdyzr_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "off_94.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/084/022/930/3625/94.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9vbhkz_0",
+    "path": "datasets/raw/imd2020/IMD2020/1dz63z/c9vbhkz_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1dz63z/c9vbhkz_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00218.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00218.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.12.06",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/004/119/008/3626/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9jmyul_0",
+    "path": "datasets/raw/imd2020/IMD2020/1cssa3/c9jmyul_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1cssa3/c9jmyul_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9oinbz_0",
+    "path": "datasets/raw/imd2020/IMD2020/1da0ta/c9oinbz_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1da0ta/c9oinbz_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00768.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00768.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "16.09.2022",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00245.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00245.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "05.21",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00261.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00261.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.03.09",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "off_2.400",
+    "path": "datasets/raw/openfoodfacts/verisight_openfoodfacts/data/085/039/700/4071/2.400.jpg",
+    "type": "packaging_sample",
+    "dataset": "OpenFoodFacts",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00713.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00713.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "JUN 29 22",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00840.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00840.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.03.25",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "imd_tamp_c96dewj_0",
+    "path": "datasets/raw/imd2020/IMD2020/1bek0p/c96dewj_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1bek0p/c96dewj_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c9n1skr_0",
+    "path": "datasets/raw/imd2020/IMD2020/1d5aqv/c9n1skr_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1d5aqv/c9n1skr_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_tamp_c90q0i2_0",
+    "path": "datasets/raw/imd2020/IMD2020/1atm1o/c90q0i2_0.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": true,
+    "mask_path": "datasets/raw/imd2020/IMD2020/1atm1o/c90q0i2_0_mask.png",
+    "has_date_annotation": false
+  },
+  {
+    "id": "imd_auth_1acw36_orig",
+    "path": "datasets/raw/imd2020/IMD2020/1acw36/1acw36_orig.jpg",
+    "type": "tamper_detection",
+    "dataset": "IMD2020",
+    "is_tampered": false,
+    "has_date_annotation": false
+  },
+  {
+    "id": "exp_img_00205.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00205.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "14.09.2020",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
+  },
+  {
+    "id": "exp_img_00913.jpg",
+    "path": "datasets/raw/expdate/products_real/Products-Real/train/images/img_00913.jpg",
+    "type": "expdate_verification",
+    "dataset": "ExpDate-Real",
+    "ground_truth_date": "2021.03.31",
+    "ground_truth_due": null,
+    "is_tampered": false,
+    "has_date_annotation": true
   }
 ]
