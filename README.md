@@ -7,6 +7,7 @@ AI packaging integrity and expiry verification for retail, food, and pharmaceuti
   <a href="#api-playground"><img alt="API playground" src="https://img.shields.io/badge/try-api%20playground-2563eb?style=for-the-badge"></a>
   <a href="#inspection-report"><img alt="Inspection report" src="https://img.shields.io/badge/read-inspection%20report-16a34a?style=for-the-badge"></a>
   <a href="#architecture"><img alt="Architecture" src="https://img.shields.io/badge/trace-system%20flow-7c3aed?style=for-the-badge"></a>
+  <a href="#benchmark-results"><img alt="Benchmark results" src="https://img.shields.io/badge/view-benchmark%20results-f97316?style=for-the-badge"></a>
 </p>
 
 VeriSight turns a package photo into a decision-ready inspection: OCR finds expiry evidence, date logic checks shelf-life, forensic analysis searches for manipulation, and the dashboard renders annotated images, heatmaps, metrics, and exportable reports.
@@ -27,6 +28,7 @@ Choose the route that matches what you want to do right now.
 | Decode a verdict | [Inspection Report](#inspection-report) | What each result field means |
 | Understand the internals | [Architecture](#architecture) | System flow, modules, and decision logic |
 | Prepare benchmarks | [Datasets](#datasets) | Dataset manifests and splits |
+| Review evidence | [Benchmark Results](#benchmark-results) | Accuracy, precision, recall, confusion matrix, and feature importance |
 
 <details open>
 <summary><strong>60-second demo path</strong></summary>
@@ -404,10 +406,21 @@ flowchart TD
 
 VeriSight is prepared for these benchmark sources:
 
-- ExpDate-Real for product packaging date annotations.
-- IMD2020 for image manipulation and mask-based tamper evaluation.
-- FoodPackagingOCR for packaging text detection and recognition.
-- OpenFoodFacts for real commercial product package imagery.
+| Dataset | Current processed samples | Purpose | Status |
+|---|---:|---|---|
+| ExpDate-Real | `1,102` | Real product packaging images with expiry/date annotations | Included in processed manifest |
+| IMD2020 | `2,227` | Authentic and manipulated images for tamper/forgery detection | Included in processed manifest |
+| OpenFoodFacts | `999` | Real commercial product packaging imagery | Included in processed manifest |
+| FoodPackagingOCR | Not in current processed manifest | Packaging text detection and recognition | Documented and supported by catalog tooling |
+| Total | `4,328` | Unified benchmark manifest | `datasets/processed/benchmark_manifest.json` |
+
+Processed split sizes:
+
+| Split | Samples | ExpDate-Real | IMD2020 | OpenFoodFacts |
+|---|---:|---:|---:|---:|
+| Train | `3,029` | `775` | `1,542` | `712` |
+| Validation | `649` | `153` | `355` | `141` |
+| Test | `650` | `174` | `330` | `146` |
 
 ```bash
 python scripts/inspect_dataset.py
@@ -416,6 +429,20 @@ python scripts/split_dataset.py
 ```
 
 More detail lives in [docs/dataset.md](docs/dataset.md).
+
+<details>
+<summary><strong>Source dataset details</strong></summary>
+
+| Dataset | Documented source detail |
+|---|---|
+| ExpDate-Real | `1,102` product packaging images, `1,244` date bounding boxes, and `895` due-marker annotations |
+| IMD2020 | `414` manipulation folders with authentic originals, manipulated images, and binary masks |
+| FoodPackagingOCR | Documented as `8,736` train, `1,092` validation, and `1,092` test annotations for packaging OCR tasks |
+| OpenFoodFacts | Product packaging catalog/images for broader real-world packaging coverage |
+
+Note: the repository currently contains processed manifests, but the raw dataset folders may need to be downloaded or mounted locally before rerunning inspection and preparation scripts.
+
+</details>
 
 <details>
 <summary><strong>Dataset workflow</strong></summary>
@@ -429,6 +456,140 @@ flowchart LR
     E --> F[train / val / test splits]
     F --> G[training and evaluation]
 ```
+
+</details>
+
+## Benchmark Results
+
+The current measured benchmark is for the tamper/forgery classifier saved in [reports/tamper_model_report.json](reports/tamper_model_report.json). OCR/date-extraction benchmark metrics are not yet saved in this repository, so those should be measured before making final production or patent-strength performance claims.
+
+<details open>
+<summary><strong>Tamper classifier performance</strong></summary>
+
+| Metric | Result |
+|---|---:|
+| Model | `GradientBoostingClassifier` |
+| Estimators | `200` |
+| Max depth | `4` |
+| Learning rate | `0.1` |
+| Training samples | `2,900` |
+| Validation samples | `726` |
+| Training time | `1.67 sec` |
+| Accuracy | `79.34%` |
+| Precision | `78.25%` |
+| Recall | `81.27%` |
+| F1-score | `79.73%` |
+| 5-fold CV F1 mean | `78.66%` |
+
+Cross-validation F1 scores:
+
+```text
+0.7966, 0.7795, 0.7817, 0.7900, 0.7853
+```
+
+</details>
+
+<details>
+<summary><strong>Confusion matrix and error rates</strong></summary>
+
+| Actual / Predicted | Authentic | Tampered |
+|---|---:|---:|
+| Authentic | `281` | `82` |
+| Tampered | `68` | `295` |
+
+Derived validation error values:
+
+| Error measure | Result |
+|---|---:|
+| False positives | `82` |
+| False positive rate | `22.59%` |
+| False negatives | `68` |
+| False negative rate | `18.73%` |
+| Specificity | `77.41%` |
+
+</details>
+
+<details>
+<summary><strong>Feature importance</strong></summary>
+
+| Feature | Importance |
+|---|---:|
+| ELA x noise interaction | `0.1723` |
+| Edge anomaly | `0.1505` |
+| Red channel mean | `0.1318` |
+| Red channel std | `0.0771` |
+| Blue channel mean | `0.0762` |
+| Blue channel std | `0.0631` |
+| ELA peak | `0.0630` |
+| Green channel std | `0.0621` |
+| DCT artifact score | `0.0466` |
+| ELA std | `0.0463` |
+| JPEG block artifact | `0.0395` |
+| ELA mean | `0.0218` |
+| Noise score | `0.0093` |
+
+</details>
+
+<details>
+<summary><strong>Current evidence status</strong></summary>
+
+| Evidence item | Status |
+|---|---|
+| Tamper detection accuracy, precision, recall, F1 | Measured and saved in `reports/tamper_model_report.json` |
+| False positives / false negatives | Derived from saved confusion matrix |
+| OCR date extraction success rate | Not yet measured in a saved benchmark report |
+| Full ablation study | Not yet measured as module-removal experiments |
+| Dataset split counts | Measured from processed JSON files |
+| Packaging-specific raw data coverage | Partially represented; more real low-light, curved, glossy, multilingual, and physically tampered samples are recommended |
+
+</details>
+
+## Novelty And IPR Evidence
+
+VeriSight is designed as a combined expiry-verification and packaging-integrity inspection system. It does not only read printed dates; it correlates date evidence with forensic image signals and produces an explainable product-level verdict.
+
+<details open>
+<summary><strong>Novelty statement</strong></summary>
+
+VeriSight proposes an integrated AI-based packaging verification system that combines expiry-date OCR, date-context interpretation, shelf-life classification, forensic image tamper analysis, anomaly heatmap generation, and an automated decision engine into a single inspection pipeline. Unlike conventional OCR systems that only extract printed text, VeriSight correlates extracted expiry/manufacturing information with visual forensic signals such as compression inconsistency, sensor-noise variance, edge discontinuity, JPEG artifact behavior, and localized tamper hotspots to determine whether a product should be approved, manually reviewed, or rejected.
+
+</details>
+
+<details>
+<summary><strong>Potential system claims</strong></summary>
+
+1. A computer-implemented system for verifying packaged goods using image-based expiry detection and packaging integrity analysis.
+2. A method for extracting expiry, manufacturing, batch, and lot information from product packaging using OCR and contextual date parsing.
+3. A method for generating a packaging tamper score using Error Level Analysis, noise-floor inconsistency, edge-gradient anomaly detection, JPEG artifact analysis, and machine-learning classification.
+4. A method for generating a forensic heatmap that visually identifies suspected tampered regions on product packaging.
+5. A decision engine that combines expiry status and tamper status to classify a product as `PASS`, `WARNING`, or `REJECT`.
+6. A user interface that allows upload, live camera capture, benchmark sample inspection, visual layer switching, and exportable audit reports.
+
+</details>
+
+<details>
+<summary><strong>Ablation status</strong></summary>
+
+Feature-importance analysis indicates that the combined ELA-noise interaction, edge anomaly features, color-channel inconsistencies, and compression-derived features contribute to tamper classification. A full module-removal ablation study is still recommended to compare:
+
+| Pipeline | Status |
+|---|---|
+| OCR/date extraction only | To be benchmarked |
+| Classical forensics only: ELA + noise + edge | To be benchmarked |
+| ML tamper classifier only | Partially benchmarked through saved classifier report |
+| Combined OCR + forensics + decision engine | To be benchmarked end-to-end |
+
+</details>
+
+<details>
+<summary><strong>Recommended additional data for stronger IPR filing</strong></summary>
+
+- Real tampered expiry-label photographs.
+- Low-light and motion-blurred retail shelf images.
+- Curved bottles, cans, blister packs, foil packs, and glossy wrappers.
+- Multilingual expiry formats and region-specific date formats.
+- Reprinted, erased, overwritten, sticker-covered, and digitally edited date stamps.
+- Negative examples where OCR fails or no expiry date is visible.
 
 </details>
 
